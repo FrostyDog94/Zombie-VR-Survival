@@ -49,6 +49,14 @@ public class SimpleShoot : MonoBehaviour
             Destroy(tempFlash, destroyTimer);
         }
 
+        RaycastHit hit;
+
+        Physics.Raycast(barrelLocation.position, transform.TransformDirection(Vector3.forward), out hit, Mathf.Infinity);
+        if (hit.transform.tag == "Zombie")
+        {
+            Destroy(hit.transform.gameObject);
+        }
+
         //cancels if there's no bullet prefeb
         if (!bulletPrefab)
         { return; }
