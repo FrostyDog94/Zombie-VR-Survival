@@ -9,6 +9,7 @@ public class SimpleShoot : MonoBehaviour
     public GameObject bulletPrefab;
     public GameObject casingPrefab;
     public GameObject muzzleFlashPrefab;
+    public GameObject blood;
 
     [Header("Location Refrences")]
     [SerializeField] private Animator gunAnimator;
@@ -52,11 +53,15 @@ public class SimpleShoot : MonoBehaviour
         RaycastHit hit;
 
         Physics.Raycast(barrelLocation.position, transform.TransformDirection(Vector3.forward), out hit, Mathf.Infinity);
-        if (hit.transform.tag == "Zombie")
+        if (hit.transform != null)
         {
-            Destroy(hit.transform.gameObject);
+            if (hit.transform.tag == "Zombie")
+            {
+                Destroy(hit.transform.gameObject);
+                
+            }
+            Instantiate(blood, hit.point, Quaternion.identity);
         }
-
         //cancels if there's no bullet prefeb
         if (!bulletPrefab)
         { return; }
