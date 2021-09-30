@@ -10,18 +10,28 @@ public class zombieAI : MonoBehaviour
     public NavMeshAgent agent;
     public Animator anim;
 
+    public bool isDead = false;
+
     // Start is called before the first frame update
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
         anim = GetComponent<Animator>();
+        anim.SetBool("Reset", true);
     }
 
     // Update is called once per frame
     void Update()
     {
         agent.SetDestination(player.position);
-        anim.SetBool("Reset", true);
+        
+
+        if (isDead)
+        {
+            anim.SetBool("Dead", true);
+            GetComponent<NavMeshAgent>().speed = 0;
+            Destroy(gameObject, 5);
+        }
 
     }
 }

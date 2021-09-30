@@ -15,12 +15,12 @@ C:/Users/andre/Desktop/Class Projects/Repos/Zombie-VR-Survival/Zombie-VR-Surviva
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59396
+54412
 Successfully changed project path to: C:/Users/andre/Desktop/Class Projects/Repos/Zombie-VR-Survival/Zombie-VR-Survival
 C:/Users/andre/Desktop/Class Projects/Repos/Zombie-VR-Survival/Zombie-VR-Survival
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 28.04 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 0.73 ms.
+Refreshing native plugins compatible for Editor in 27.96 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.71 ms.
 Initialize engine version: 2020.3.3f1 (76626098c1c4)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/andre/Desktop/Class Projects/Repos/Zombie-VR-Survival/Zombie-VR-Survival/Assets
@@ -35,25 +35,25 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56128
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56588
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001424 seconds.
+Registered in 0.001405 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 26.03 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
+Refreshing native plugins compatible for Editor in 25.43 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.788 seconds
+- Completed reload, in  0.779 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001449 seconds.
+Registered in 0.001367 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 26.23 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 25.43 ms, found 3 plugins.
 Preloading 1 native plugins for Editor in 0.07 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
@@ -69,104 +69,99 @@ NullReferenceException: Object reference not set to an instance of an object
 (Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  0.740 seconds
+- Completed reload, in  0.734 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
 Refreshing native plugins compatible for Editor in 0.32 ms, found 3 plugins.
 Preloading 1 native plugins for Editor in 0.06 ms.
-Unloading 1663 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1664 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 90.7 MB.
 System memory in use after: 90.7 MB.
 
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2125.
-Total: 1.683200 ms (FindLiveObjects: 0.172700 ms CreateObjectMapping: 0.069200 ms MarkObjects: 1.360800 ms  DeleteObjects: 0.079500 ms)
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2126.
+Total: 1.665800 ms (FindLiveObjects: 0.175700 ms CreateObjectMapping: 0.067400 ms MarkObjects: 1.347900 ms  DeleteObjects: 0.074300 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Blood.prefab
-  artifactKey: Guid(7668b8d3d64217c4ca581560505de233) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blood.prefab using Guid(7668b8d3d64217c4ca581560505de233) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d146f2277569b293c2f406897f080c9') in 0.035628 seconds
-  Import took 0.037803 seconds .
+  path: Assets/Supercyan Character Pack Zombie Sample/Materials/High Quality/free_zombie_body.mat
+  artifactKey: Guid(505c715e0fdb50f4fb8e906ce5e8d288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Character Pack Zombie Sample/Materials/High Quality/free_zombie_body.mat using Guid(505c715e0fdb50f4fb8e906ce5e8d288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '658363404cd20ab309a43d16c2753c68') in 0.085195 seconds
+  Import took 0.087355 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.150010 seconds.
-  path: Assets/Blood.prefab
-  artifactKey: Guid(7668b8d3d64217c4ca581560505de233) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blood.prefab using Guid(7668b8d3d64217c4ca581560505de233) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '474cd1e67cd41f3b3a2ce484e49a16e1') in 0.003622 seconds
-  Import took 0.005811 seconds .
+  Time since last request: 0.000247 seconds.
+  path: Assets/Supercyan Character Pack Zombie Sample/Materials/High Quality/free_zombie_head.mat
+  artifactKey: Guid(9fb1835b082c0a54e90f8fee1335b69f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Character Pack Zombie Sample/Materials/High Quality/free_zombie_head.mat using Guid(9fb1835b082c0a54e90f8fee1335b69f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '705dc6a10cbd726742eb1e6826767bd3') in 0.011087 seconds
+  Import took 0.013141 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.633980 seconds.
-  path: Assets/Blood.prefab
-  artifactKey: Guid(7668b8d3d64217c4ca581560505de233) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blood.prefab using Guid(7668b8d3d64217c4ca581560505de233) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c34cda7bc318686fc34789fe72e83cbc') in 0.003689 seconds
-  Import took 0.005944 seconds .
+  Time since last request: 0.000180 seconds.
+  path: Assets/Supercyan Character Pack Zombie Sample/Textures/free_zombie_body_diffuse.psd
+  artifactKey: Guid(07e331a1e9c6d9d4493d1e1b6996c5ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Character Pack Zombie Sample/Textures/free_zombie_body_diffuse.psd using Guid(07e331a1e9c6d9d4493d1e1b6996c5ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '504d38f025adc2da3e59ac28e7a72fc9') in 0.013627 seconds
+  Import took 0.015685 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.206285 seconds.
-  path: Assets/Blood.prefab
-  artifactKey: Guid(7668b8d3d64217c4ca581560505de233) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blood.prefab using Guid(7668b8d3d64217c4ca581560505de233) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9572148132b85ac6a8d8c2239796c214') in 0.003716 seconds
-  Import took 0.005969 seconds .
+  Time since last request: 0.000153 seconds.
+  path: Assets/Supercyan Character Pack Zombie Sample/Animations/free_sample_zombie@zombie_death_standing.FBX
+  artifactKey: Guid(ec13975053ac9b04ba71483c47d8eed6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Character Pack Zombie Sample/Animations/free_sample_zombie@zombie_death_standing.FBX using Guid(ec13975053ac9b04ba71483c47d8eed6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74cad55eac1618ef872a3d83e3c048a0') in 0.027761 seconds
+  Import took 0.029921 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.006142 seconds.
-  path: Assets/Blood.prefab
-  artifactKey: Guid(7668b8d3d64217c4ca581560505de233) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blood.prefab using Guid(7668b8d3d64217c4ca581560505de233) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9572148132b85ac6a8d8c2239796c214') in 0.003583 seconds
-  Import took 0.005843 seconds .
+  Time since last request: 0.000135 seconds.
+  path: Assets/Supercyan Character Pack Zombie Sample/Textures/free_zombie_head_diffuse.psd
+  artifactKey: Guid(7c55760883dbbb94ba596e38d2de2ca8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Character Pack Zombie Sample/Textures/free_zombie_head_diffuse.psd using Guid(7c55760883dbbb94ba596e38d2de2ca8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c439bf9b8b4017d1a8ce5f416286f7f0') in 0.006966 seconds
+  Import took 0.009012 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.353950 seconds.
-  path: Assets/Blood.prefab
-  artifactKey: Guid(7668b8d3d64217c4ca581560505de233) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blood.prefab using Guid(7668b8d3d64217c4ca581560505de233) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a413ddbb03be9ce29452a8967c7dc131') in 0.002897 seconds
-  Import took 0.005206 seconds .
+  Time since last request: 0.000192 seconds.
+  path: Assets/Supercyan Character Pack Zombie Sample/Models/Character_Pack_Zombie_Sample.FBX
+  artifactKey: Guid(8c53cffd52097cf4582f0a090c9a833e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Character Pack Zombie Sample/Models/Character_Pack_Zombie_Sample.FBX using Guid(8c53cffd52097cf4582f0a090c9a833e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd51fb0b207d3cc23106a1bb9de51fc9d') in 0.074334 seconds
+  Import took 0.076608 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.799431 seconds.
+  path: Assets/Supercyan Character Pack Zombie Sample/Animations/free_sample_zombie@zombie_death_standing.FBX
+  artifactKey: Guid(ec13975053ac9b04ba71483c47d8eed6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Character Pack Zombie Sample/Animations/free_sample_zombie@zombie_death_standing.FBX using Guid(ec13975053ac9b04ba71483c47d8eed6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74cad55eac1618ef872a3d83e3c048a0') in 0.003534 seconds
+  Import took 0.005932 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.315034 seconds.
+  path: Assets/Nokobot/Modern Guns - Handgun/_Prefabs/Handgun Black/M1911 Handgun_Black (Shooting).prefab
+  artifactKey: Guid(7e7f2840eb6a6294fb9d04582dbf8079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nokobot/Modern Guns - Handgun/_Prefabs/Handgun Black/M1911 Handgun_Black (Shooting).prefab using Guid(7e7f2840eb6a6294fb9d04582dbf8079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6499d564f15c2d2007db1d09f35d6a1') in 0.039656 seconds
+  Import took 0.042543 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 77.358200 seconds.
+  path: Assets/Supercyan Character Pack Zombie Sample/Models
+  artifactKey: Guid(e49518ac9f5dc65498ba5a8f8aa38300) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Character Pack Zombie Sample/Models using Guid(e49518ac9f5dc65498ba5a8f8aa38300) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4336c2fcb03f3f804d2f857ea78aedbc') in 0.005008 seconds
+  Import took 0.007769 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001410 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.34 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\andre\Desktop\Class Projects\Repos\Zombie-VR-Survival\Zombie-VR-Survival\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\andre\Desktop\Class Projects\Repos\Zombie-VR-Survival\Zombie-VR-Survival\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  0.742 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.36 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Unloading 1644 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 90.2 MB.
-System memory in use after: 90.3 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2129.
-Total: 2.038500 ms (FindLiveObjects: 0.278900 ms CreateObjectMapping: 0.102800 ms MarkObjects: 1.580800 ms  DeleteObjects: 0.074800 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001456 seconds.
+Registered in 0.001334 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.33 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
+Preloading 1 native plugins for Editor in 0.08 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
@@ -179,193 +174,19 @@ NullReferenceException: Object reference not set to an instance of an object
 Mono: successfully reloaded assembly
 - Completed reload, in  0.675 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.45 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 0.09 ms.
-Unloading 1644 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 90.2 MB.
-System memory in use after: 90.3 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2133.
-Total: 1.831600 ms (FindLiveObjects: 0.176600 ms CreateObjectMapping: 0.076700 ms MarkObjects: 1.488300 ms  DeleteObjects: 0.089100 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001340 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.33 ms, found 3 plugins.
 Preloading 1 native plugins for Editor in 0.07 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\andre\Desktop\Class Projects\Repos\Zombie-VR-Survival\Zombie-VR-Survival\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\andre\Desktop\Class Projects\Repos\Zombie-VR-Survival\Zombie-VR-Survival\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+Unloading 1642 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 107.2 MB.
+System memory in use after: 107.3 MB.
 
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  0.662 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.35 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Unloading 1644 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 90.3 MB.
-System memory in use after: 90.3 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2137.
-Total: 2.141000 ms (FindLiveObjects: 0.265700 ms CreateObjectMapping: 0.101400 ms MarkObjects: 1.695600 ms  DeleteObjects: 0.077500 ms)
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2172.
+Total: 1.595400 ms (FindLiveObjects: 0.144200 ms CreateObjectMapping: 0.049900 ms MarkObjects: 1.335400 ms  DeleteObjects: 0.065200 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001318 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.34 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\andre\Desktop\Class Projects\Repos\Zombie-VR-Survival\Zombie-VR-Survival\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\andre\Desktop\Class Projects\Repos\Zombie-VR-Survival\Zombie-VR-Survival\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  0.660 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.37 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Unloading 1644 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 90.3 MB.
-System memory in use after: 90.4 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2141.
-Total: 1.728000 ms (FindLiveObjects: 0.167400 ms CreateObjectMapping: 0.057700 ms MarkObjects: 1.432400 ms  DeleteObjects: 0.069800 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001389 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.35 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\andre\Desktop\Class Projects\Repos\Zombie-VR-Survival\Zombie-VR-Survival\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\andre\Desktop\Class Projects\Repos\Zombie-VR-Survival\Zombie-VR-Survival\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  0.664 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.34 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Unloading 1644 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 90.3 MB.
-System memory in use after: 90.4 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2145.
-Total: 1.592600 ms (FindLiveObjects: 0.155200 ms CreateObjectMapping: 0.053400 ms MarkObjects: 1.321600 ms  DeleteObjects: 0.061800 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001403 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.35 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\andre\Desktop\Class Projects\Repos\Zombie-VR-Survival\Zombie-VR-Survival\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\andre\Desktop\Class Projects\Repos\Zombie-VR-Survival\Zombie-VR-Survival\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  0.661 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.34 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
-Unloading 1644 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 90.3 MB.
-System memory in use after: 90.4 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2149.
-Total: 1.755700 ms (FindLiveObjects: 0.181000 ms CreateObjectMapping: 0.060900 ms MarkObjects: 1.449200 ms  DeleteObjects: 0.063700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001407 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.33 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\andre\Desktop\Class Projects\Repos\Zombie-VR-Survival\Zombie-VR-Survival\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\andre\Desktop\Class Projects\Repos\Zombie-VR-Survival\Zombie-VR-Survival\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  0.690 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.34 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
-Unloading 1644 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 90.3 MB.
-System memory in use after: 90.4 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2153.
-Total: 1.647900 ms (FindLiveObjects: 0.152300 ms CreateObjectMapping: 0.059400 ms MarkObjects: 1.366100 ms  DeleteObjects: 0.069300 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001350 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.36 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\andre\Desktop\Class Projects\Repos\Zombie-VR-Survival\Zombie-VR-Survival\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\andre\Desktop\Class Projects\Repos\Zombie-VR-Survival\Zombie-VR-Survival\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  0.669 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.35 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Unloading 1644 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 90.3 MB.
-System memory in use after: 90.4 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2157.
-Total: 1.803900 ms (FindLiveObjects: 0.170200 ms CreateObjectMapping: 0.056700 ms MarkObjects: 1.503500 ms  DeleteObjects: 0.072800 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009314 seconds.
+Registered in 0.001422 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.33 ms, found 3 plugins.
@@ -383,55 +204,42 @@ Mono: successfully reloaded assembly
 - Completed reload, in  0.656 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.33 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
-Unloading 1644 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 90.3 MB.
-System memory in use after: 90.4 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2161.
-Total: 1.604100 ms (FindLiveObjects: 0.149700 ms CreateObjectMapping: 0.051100 ms MarkObjects: 1.344200 ms  DeleteObjects: 0.058500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001408 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.33 ms, found 3 plugins.
 Preloading 1 native plugins for Editor in 0.07 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\andre\Desktop\Class Projects\Repos\Zombie-VR-Survival\Zombie-VR-Survival\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\andre\Desktop\Class Projects\Repos\Zombie-VR-Survival\Zombie-VR-Survival\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+Unloading 1643 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 107.3 MB.
+System memory in use after: 107.3 MB.
 
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  0.653 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.33 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
-Unloading 1644 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 90.3 MB.
-System memory in use after: 90.4 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2165.
-Total: 2.005500 ms (FindLiveObjects: 0.223600 ms CreateObjectMapping: 0.073900 ms MarkObjects: 1.624500 ms  DeleteObjects: 0.082600 ms)
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2177.
+Total: 1.558700 ms (FindLiveObjects: 0.155200 ms CreateObjectMapping: 0.053200 ms MarkObjects: 1.292300 ms  DeleteObjects: 0.057400 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2854.032574 seconds.
-  path: Assets/Cube.prefab
-  artifactKey: Guid(e492c5bff3da6de49b19f608059b8b36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cube.prefab using Guid(e492c5bff3da6de49b19f608059b8b36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bfb2e8a5924e4569d1eb1b27a054e15') in 0.070200 seconds
-  Import took 0.073081 seconds .
+  Time since last request: 228.303527 seconds.
+  path: Assets/Supercyan Character Pack Zombie Sample/Textures
+  artifactKey: Guid(ad6093b3d8b93174fba7e575ca5ed627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Character Pack Zombie Sample/Textures using Guid(ad6093b3d8b93174fba7e575ca5ed627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22e1816fe5d1ff172ccb615eb13a6017') in 0.006917 seconds
+  Import took 0.009244 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 284.279282 seconds.
+  path: Assets/Supercyan Character Pack Zombie Sample/Textures/free_zombie_head_diffuse.psd
+  artifactKey: Guid(7c55760883dbbb94ba596e38d2de2ca8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Character Pack Zombie Sample/Textures/free_zombie_head_diffuse.psd using Guid(7c55760883dbbb94ba596e38d2de2ca8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '590296d70ba13682f22a4a2eaa7bef86') in 0.030534 seconds
+  Import took 0.033188 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.630130 seconds.
+  path: Assets/Supercyan Character Pack Zombie Sample/Textures/free_zombie_body_diffuse.psd
+  artifactKey: Guid(07e331a1e9c6d9d4493d1e1b6996c5ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Character Pack Zombie Sample/Textures/free_zombie_body_diffuse.psd using Guid(07e331a1e9c6d9d4493d1e1b6996c5ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81cf325507443bec69b69d78ed413d06') in 0.008675 seconds
+  Import took 0.011596 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001309 seconds.
+Registered in 0.001484 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.33 ms, found 3 plugins.
@@ -446,25 +254,73 @@ NullReferenceException: Object reference not set to an instance of an object
 (Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  0.651 seconds
+- Completed reload, in  0.687 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.34 ms, found 3 plugins.
 Preloading 1 native plugins for Editor in 0.07 ms.
-Unloading 1644 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 93.5 MB.
-System memory in use after: 93.5 MB.
+Unloading 1643 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 107.3 MB.
+System memory in use after: 107.4 MB.
 
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2177.
-Total: 1.827400 ms (FindLiveObjects: 0.159600 ms CreateObjectMapping: 0.054100 ms MarkObjects: 1.537300 ms  DeleteObjects: 0.075300 ms)
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2181.
+Total: 1.601500 ms (FindLiveObjects: 0.146800 ms CreateObjectMapping: 0.055600 ms MarkObjects: 1.340300 ms  DeleteObjects: 0.057900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 78.128739 seconds.
+  path: Assets/Supercyan Character Pack Zombie Sample/Textures/free_zombie_head_diffuse.psd
+  artifactKey: Guid(7c55760883dbbb94ba596e38d2de2ca8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Character Pack Zombie Sample/Textures/free_zombie_head_diffuse.psd using Guid(7c55760883dbbb94ba596e38d2de2ca8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '090b1fe6445457327c10f87b582955c5') in 0.029696 seconds
+  Import took 0.032375 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.137176 seconds.
+  path: Assets/Supercyan Character Pack Zombie Sample/Textures/free_zombie_body_diffuse.psd
+  artifactKey: Guid(07e331a1e9c6d9d4493d1e1b6996c5ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Character Pack Zombie Sample/Textures/free_zombie_body_diffuse.psd using Guid(07e331a1e9c6d9d4493d1e1b6996c5ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f95eb732f634a8d75916e89446a72f29') in 0.012025 seconds
+  Import took 0.014969 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.684235 seconds.
+  path: Assets/Supercyan Character Pack Zombie Sample/Materials
+  artifactKey: Guid(b23951217ab257b4bb9ca89398cfba76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Character Pack Zombie Sample/Materials using Guid(b23951217ab257b4bb9ca89398cfba76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a504baacd9c0de3548bee952d2401e47') in 0.004789 seconds
+  Import took 0.007051 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.814654 seconds.
+  path: Assets/Supercyan Character Pack Zombie Sample/Materials/High Quality
+  artifactKey: Guid(d621da3be77957a499b15680213f77c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Character Pack Zombie Sample/Materials/High Quality using Guid(d621da3be77957a499b15680213f77c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd51f71a83c998de0666f8da713aa35d2') in 0.001893 seconds
+  Import took 0.004183 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 136.686198 seconds.
+  path: Assets/Supercyan Character Pack Zombie Sample/Textures/free_zombie_body_diffuse.psd
+  artifactKey: Guid(07e331a1e9c6d9d4493d1e1b6996c5ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Character Pack Zombie Sample/Textures/free_zombie_body_diffuse.psd using Guid(07e331a1e9c6d9d4493d1e1b6996c5ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c9140f6fc3e04f52d64029e60d6382d') in 0.013983 seconds
+  Import took 0.016353 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 330.919584 seconds.
+  path: Assets/zombieAI.cs
+  artifactKey: Guid(1c5adb9abe29b7f4caec4554b867080c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zombieAI.cs using Guid(1c5adb9abe29b7f4caec4554b867080c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a84d76b8413a7a64852e1c6195d5716') in 0.007371 seconds
+  Import took 0.010533 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001488 seconds.
+Registered in 0.001430 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.39 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
+Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
@@ -475,14 +331,136 @@ NullReferenceException: Object reference not set to an instance of an object
 (Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  0.662 seconds
+- Completed reload, in  0.686 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.39 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
 Preloading 1 native plugins for Editor in 0.07 ms.
-Unloading 1644 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 93.5 MB.
-System memory in use after: 93.5 MB.
+Unloading 1643 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 107.3 MB.
+System memory in use after: 107.4 MB.
 
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2181.
-Total: 1.750200 ms (FindLiveObjects: 0.191100 ms CreateObjectMapping: 0.063900 ms MarkObjects: 1.422700 ms  DeleteObjects: 0.071400 ms)
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2185.
+Total: 1.832100 ms (FindLiveObjects: 0.212400 ms CreateObjectMapping: 0.066100 ms MarkObjects: 1.480600 ms  DeleteObjects: 0.072100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 111.915982 seconds.
+  path: Assets/Supercyan Character Pack Zombie Sample/AnimatorControllers/FreeZombieController.controller
+  artifactKey: Guid(c929656c07909194ab8a5cd79f5f371d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Character Pack Zombie Sample/AnimatorControllers/FreeZombieController.controller using Guid(c929656c07909194ab8a5cd79f5f371d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79411b0e3ed7822970ece91bb3cf5143') in 0.018295 seconds
+  Import took 0.021410 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001352 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\andre\Desktop\Class Projects\Repos\Zombie-VR-Survival\Zombie-VR-Survival\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\andre\Desktop\Class Projects\Repos\Zombie-VR-Survival\Zombie-VR-Survival\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.668 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.35 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 1643 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 107.3 MB.
+System memory in use after: 107.4 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2189.
+Total: 1.686800 ms (FindLiveObjects: 0.167000 ms CreateObjectMapping: 0.062900 ms MarkObjects: 1.390800 ms  DeleteObjects: 0.065400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 233.697938 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2e0e235c0f4af3754229b664788db90') in 0.007562 seconds
+  Import took 0.010183 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.932525 seconds.
+  path: Assets/Nokobot/Modern Guns - Handgun/_Demo Assets
+  artifactKey: Guid(f02bd5845de96884b8897a53e6dd8463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nokobot/Modern Guns - Handgun/_Demo Assets using Guid(f02bd5845de96884b8897a53e6dd8463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '088caf15d6d3c403a391ba9df52de0e8') in 0.005015 seconds
+  Import took 0.007770 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000357 seconds.
+  path: Assets/Nokobot/Modern Guns - Handgun/_Demo Assets
+  artifactKey: Guid(f02bd5845de96884b8897a53e6dd8463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nokobot/Modern Guns - Handgun/_Demo Assets using Guid(f02bd5845de96884b8897a53e6dd8463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '088caf15d6d3c403a391ba9df52de0e8') in 0.001509 seconds
+  Import took 0.003683 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001479 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\andre\Desktop\Class Projects\Repos\Zombie-VR-Survival\Zombie-VR-Survival\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\andre\Desktop\Class Projects\Repos\Zombie-VR-Survival\Zombie-VR-Survival\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.707 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.34 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 1642 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 107.3 MB.
+System memory in use after: 107.4 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2192.
+Total: 1.700500 ms (FindLiveObjects: 0.180100 ms CreateObjectMapping: 0.056500 ms MarkObjects: 1.394000 ms  DeleteObjects: 0.069000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.864610 seconds.
+  path: Assets/Nokobot/Modern Guns - Handgun/Asset Collection.unity
+  artifactKey: Guid(3e2d436cf8cd5b54a878d325c0de145b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nokobot/Modern Guns - Handgun/Asset Collection.unity using Guid(3e2d436cf8cd5b54a878d325c0de145b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dff7d2df7a546024cb61fe35fac7ab67') in 0.011534 seconds
+  Import took 0.014557 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.600379 seconds.
+  path: Assets/Nokobot/Modern Guns - Handgun/README.txt
+  artifactKey: Guid(866393511db0e9740b36956843eeaa8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nokobot/Modern Guns - Handgun/README.txt using Guid(866393511db0e9740b36956843eeaa8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfcb7fe44eab9093567a6e4700e7d37d') in 0.008228 seconds
+  Import took 0.010579 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014039 seconds.
+  path: Assets/Nokobot/Modern Guns - Handgun/README.txt
+  artifactKey: Guid(866393511db0e9740b36956843eeaa8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nokobot/Modern Guns - Handgun/README.txt using Guid(866393511db0e9740b36956843eeaa8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfcb7fe44eab9093567a6e4700e7d37d') in 0.001908 seconds
+  Import took 0.004174 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.143927 seconds.
+  path: Assets/Supercyan Character Pack Zombie Sample/Shaders
+  artifactKey: Guid(184395457a6672944b9183a0dbb28ea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Character Pack Zombie Sample/Shaders using Guid(184395457a6672944b9183a0dbb28ea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ee132bfea2e435fd2bdbea1cdacd21b') in 0.004798 seconds
+  Import took 0.007313 seconds .
 
