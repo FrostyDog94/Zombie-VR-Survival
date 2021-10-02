@@ -9,6 +9,8 @@ public class zombieAI : MonoBehaviour
     public Transform player;
     public NavMeshAgent agent;
     public Animator anim;
+    Collider col;
+    Rigidbody rigidBody;
 
     public bool isDead = false;
 
@@ -18,6 +20,8 @@ public class zombieAI : MonoBehaviour
         agent = GetComponent<NavMeshAgent>();
         anim = GetComponent<Animator>();
         anim.SetBool("Reset", true);
+        col = GetComponent<Collider>();
+        rigidBody = GetComponent<Rigidbody>();
     }
 
     // Update is called once per frame
@@ -31,6 +35,8 @@ public class zombieAI : MonoBehaviour
             anim.SetBool("Dead", true);
             GetComponent<NavMeshAgent>().speed = 0;
             Destroy(gameObject, 5);
+            col.enabled = false;
+            rigidBody.useGravity = false;
         }
 
     }

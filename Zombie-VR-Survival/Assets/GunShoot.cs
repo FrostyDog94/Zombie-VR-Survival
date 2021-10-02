@@ -8,6 +8,7 @@ public class GunShoot : MonoBehaviour
     public GameObject muzzleFlash;
     public Transform BarrelTransform;
     public GameObject bulletImpact;
+    public GameObject bloodSplatter;
 
     public void Shoot()
     {
@@ -17,16 +18,21 @@ public class GunShoot : MonoBehaviour
         gunShot.Play();
         Destroy(mf, 0.08f);
 
-        //Create bullet impact
+        
         RaycastHit hit;
         Physics.Raycast(BarrelTransform.position, transform.TransformDirection(Vector3.forward), out hit, Mathf.Infinity);
-        GameObject bi = Instantiate(bulletImpact, hit.point, Quaternion.LookRotation(hit.normal));
-        Destroy(bi, 3);
 
-        //Kill enemy
+
+        //Kill enemy and bullet impact;
         if (hit.transform.GetComponent<zombieAI>() != null)
         {
             hit.transform.GetComponent<zombieAI>().isDead = true;
+            GameObject bs = Instantiate(bloodSplatter, hit.point, Quaternion.LookRotation(hit.normal));
+            Destroy(bs, 3);
+        } else
+        {
+            GameObject bi = Instantiate(bulletImpact, hit.point, Quaternion.LookRotation(hit.normal));
+            Destroy(bi, 3);
         }
     }
 }
