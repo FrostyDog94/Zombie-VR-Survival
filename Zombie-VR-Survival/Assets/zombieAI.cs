@@ -22,6 +22,7 @@ public class zombieAI : MonoBehaviour
         anim.SetBool("Reset", true);
         col = GetComponent<Collider>();
         rigidBody = GetComponent<Rigidbody>();
+        player = GameObject.FindGameObjectWithTag("Player").transform;
     }
 
     // Update is called once per frame

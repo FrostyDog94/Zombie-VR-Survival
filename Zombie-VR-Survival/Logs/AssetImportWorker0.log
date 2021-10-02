@@ -15,12 +15,12 @@ C:/Users/andre/Desktop/Class Projects/Repos/Zombie-VR-Survival/Zombie-VR-Surviva
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-65149
+53562
 Successfully changed project path to: C:/Users/andre/Desktop/Class Projects/Repos/Zombie-VR-Survival/Zombie-VR-Survival
 C:/Users/andre/Desktop/Class Projects/Repos/Zombie-VR-Survival/Zombie-VR-Survival
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 36.77 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 0.68 ms.
+Refreshing native plugins compatible for Editor in 36.08 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.71 ms.
 Initialize engine version: 2020.3.3f1 (76626098c1c4)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/andre/Desktop/Class Projects/Repos/Zombie-VR-Survival/Zombie-VR-Survival/Assets
@@ -35,25 +35,25 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56036
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56324
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001448 seconds.
+Registered in 0.001489 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 34.46 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
+Refreshing native plugins compatible for Editor in 34.99 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.787 seconds
+- Completed reload, in  0.801 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001385 seconds.
+Registered in 0.001450 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 33.98 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 34.13 ms, found 3 plugins.
 Preloading 1 native plugins for Editor in 0.07 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
@@ -69,39 +69,447 @@ NullReferenceException: Object reference not set to an instance of an object
 (Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  0.760 seconds
+- Completed reload, in  0.758 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.71 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 0.45 ms, found 3 plugins.
 Preloading 1 native plugins for Editor in 0.07 ms.
 Unloading 1663 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 91.1 MB.
-System memory in use after: 91.2 MB.
+System memory in use before: 91.3 MB.
+System memory in use after: 91.4 MB.
 
 Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2130.
-Total: 1.639900 ms (FindLiveObjects: 0.160600 ms CreateObjectMapping: 0.070400 ms MarkObjects: 1.325700 ms  DeleteObjects: 0.082600 ms)
+Total: 1.695300 ms (FindLiveObjects: 0.192300 ms CreateObjectMapping: 0.066700 ms MarkObjects: 1.344900 ms  DeleteObjects: 0.090800 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/characterMedium@Zombie Walk.prefab
-  artifactKey: Guid(ac5d9919588332647b3d69db36fa3d49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/characterMedium@Zombie Walk.prefab using Guid(ac5d9919588332647b3d69db36fa3d49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c7e0c2f41dcd79df907c895452e884b') in 0.115842 seconds
-  Import took 0.118731 seconds .
+  path: Assets/MyAssets
+  artifactKey: Guid(2c439927fe3c0ce4f9735fc9e3f181ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyAssets using Guid(2c439927fe3c0ce4f9735fc9e3f181ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e45ff360478ac2a040346e38748a3880') in 0.006717 seconds
+  Import took 0.008702 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000118 seconds.
-  path: Assets/characterMedium@Zombie Walk.fbx
-  artifactKey: Guid(486ad6d85459b4e459e5101954e1d05c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/characterMedium@Zombie Walk.fbx using Guid(486ad6d85459b4e459e5101954e1d05c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dba41027836c1a6a45135190459cf84') in 0.057748 seconds
-  Import took 0.060528 seconds .
+  Time since last request: 2.667827 seconds.
+  path: Assets/MyAssets/pistol.prefab
+  artifactKey: Guid(367188a6b2ee3a64a85f8bd6aad9468b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyAssets/pistol.prefab using Guid(367188a6b2ee3a64a85f8bd6aad9468b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaba4eeae4709380601e77cdd98fdbb4') in 0.108956 seconds
+  Import took 0.111911 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004174 seconds.
+  path: Assets/MyAssets/pistol.prefab
+  artifactKey: Guid(367188a6b2ee3a64a85f8bd6aad9468b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyAssets/pistol.prefab using Guid(367188a6b2ee3a64a85f8bd6aad9468b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaba4eeae4709380601e77cdd98fdbb4') in 0.013023 seconds
+  Import took 0.016032 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.016564 seconds.
+  path: Assets/MyAssets/FreeZombieSimpleMovement.prefab
+  artifactKey: Guid(c81e1cb02cecc454f8f100469d1d7c43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyAssets/FreeZombieSimpleMovement.prefab using Guid(c81e1cb02cecc454f8f100469d1d7c43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a17339ac6a8126db812310347ca4fed6') in 0.067967 seconds
+  Import took 0.070816 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 49.833543 seconds.
+  path: Assets/New Terrain 2.asset
+  artifactKey: Guid(8316eb930f0ce6d48bdfa54a0ee2bf73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain 2.asset using Guid(8316eb930f0ce6d48bdfa54a0ee2bf73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ba77a70a0427d43bd8a6cfa0b4f4f7e') in 0.010387 seconds
+  Import took 0.013827 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 146.031903 seconds.
+  path: Assets/weaponpack_assets/Sprites/Silhouette/ammo_machinegun.png
+  artifactKey: Guid(9ee8728d042e2eb4699dc48133210020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/weaponpack_assets/Sprites/Silhouette/ammo_machinegun.png using Guid(9ee8728d042e2eb4699dc48133210020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cc8b66589ddfed64cd14eab870ce66e') in 0.050249 seconds
+  Import took 0.052918 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/weaponpack_assets/Sprites/Render/ammo_pistol.png
+  artifactKey: Guid(a62c4f49cb513e74a93928e89bf6dc49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/weaponpack_assets/Sprites/Render/ammo_pistol.png using Guid(a62c4f49cb513e74a93928e89bf6dc49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b75bb39875cd5c0fb6698308f87eb12') in 0.015396 seconds
+  Import took 0.017743 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/weaponpack_assets/Sprites/Render/ammo_machinegun.png
+  artifactKey: Guid(2c9bd83230d73534cac1ab7b5cc31c8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/weaponpack_assets/Sprites/Render/ammo_machinegun.png using Guid(2c9bd83230d73534cac1ab7b5cc31c8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7770caee0cfb36afd3e862507ca60f00') in 0.014569 seconds
+  Import took 0.017123 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/weaponpack_assets/Sprites/Render/ammo_machinegunLauncher.png
+  artifactKey: Guid(188168ce19f4c2c4da73caaf4b6150c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/weaponpack_assets/Sprites/Render/ammo_machinegunLauncher.png using Guid(188168ce19f4c2c4da73caaf4b6150c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1406d93960eb2193431994dc810925a') in 0.015716 seconds
+  Import took 0.018092 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/weaponpack_assets/Sprites/Silhouette/ammo_machinegunLauncher.png
+  artifactKey: Guid(4da3ab05d2201404d8f45837e83cbb68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/weaponpack_assets/Sprites/Silhouette/ammo_machinegunLauncher.png using Guid(4da3ab05d2201404d8f45837e83cbb68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad117cb461873048a2601093d1f2b1b4') in 0.015232 seconds
+  Import took 0.017607 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/weaponpack_assets/Sprites/Silhouette/ammo_pistol.png
+  artifactKey: Guid(5b00647c632a00b4f8ef0f3dea856306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/weaponpack_assets/Sprites/Silhouette/ammo_pistol.png using Guid(5b00647c632a00b4f8ef0f3dea856306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05da91036d9edafc703297c10d2d6a57') in 0.012259 seconds
+  Import took 0.014793 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/weaponpack_assets/Sprites/Silhouette/ammo_machinegun.png
+  artifactKey: Guid(9ee8728d042e2eb4699dc48133210020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/weaponpack_assets/Sprites/Silhouette/ammo_machinegun.png using Guid(9ee8728d042e2eb4699dc48133210020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cc8b66589ddfed64cd14eab870ce66e') in 0.009454 seconds
+  Import took 0.011680 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.785011 seconds.
+  path: Assets/weaponpack_assets/Sprites/Silhouette/ammo_rocket.png
+  artifactKey: Guid(3ed785d3a5798f4449d5f3f0661f7f5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/weaponpack_assets/Sprites/Silhouette/ammo_rocket.png using Guid(3ed785d3a5798f4449d5f3f0661f7f5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7d495d871dbd9fee78d2ebd94273e47') in 0.012133 seconds
+  Import took 0.014809 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/weaponpack_assets/Sprites/Render/ammo_rocket.png
+  artifactKey: Guid(b8d0959bd657e40488ea5c5142d866db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/weaponpack_assets/Sprites/Render/ammo_rocket.png using Guid(b8d0959bd657e40488ea5c5142d866db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1ebe1433e8e4762af55ad77ecd73463') in 0.009813 seconds
+  Import took 0.012046 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.031989 seconds.
+  path: Assets/weaponpack_assets/Sprites/Render/ammo_rocketModern.png
+  artifactKey: Guid(9d9c5a1f4f1429b45946d8c963ebf681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/weaponpack_assets/Sprites/Render/ammo_rocketModern.png using Guid(9d9c5a1f4f1429b45946d8c963ebf681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79712a8ed84f8dd3e1cb7f0f2bcad430') in 0.011078 seconds
+  Import took 0.013496 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/weaponpack_assets/Sprites/Render/ammo_shotgun.png
+  artifactKey: Guid(ae93b8fde4689c84b9baa5f6e2255f8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/weaponpack_assets/Sprites/Render/ammo_shotgun.png using Guid(ae93b8fde4689c84b9baa5f6e2255f8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a952284ca9c137170f2eabd323434df') in 0.010899 seconds
+  Import took 0.014125 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/weaponpack_assets/Sprites/Silhouette/ammo_rocketModern.png
+  artifactKey: Guid(9e2681f5d74e5d7499d00114e8684996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/weaponpack_assets/Sprites/Silhouette/ammo_rocketModern.png using Guid(9e2681f5d74e5d7499d00114e8684996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e5e5846da0990eff0812d815e7bb7fc') in 0.012362 seconds
+  Import took 0.014637 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/weaponpack_assets/Sprites/Silhouette/ammo_shotgun.png
+  artifactKey: Guid(e8588d21c727dc148aef8b990c16c0cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/weaponpack_assets/Sprites/Silhouette/ammo_shotgun.png using Guid(e8588d21c727dc148aef8b990c16c0cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0c113bb5ddaa1a1e23f49420b3a1460') in 0.012983 seconds
+  Import took 0.015174 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017405 seconds.
+  path: Assets/weaponpack_assets/Sprites/Render/ammo_sniper.png
+  artifactKey: Guid(84bef9e3fe739fd4d8e7a9095eb6b286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/weaponpack_assets/Sprites/Render/ammo_sniper.png using Guid(84bef9e3fe739fd4d8e7a9095eb6b286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c017911f76f23c9a1d5a8418c2c489ab') in 0.011407 seconds
+  Import took 0.013845 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/weaponpack_assets/Sprites/Silhouette/ammo_sniper.png
+  artifactKey: Guid(8d0b9632575a17e46b6881d234f18b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/weaponpack_assets/Sprites/Silhouette/ammo_sniper.png using Guid(8d0b9632575a17e46b6881d234f18b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8300adc1476237734c84b2be6edcd796') in 0.007687 seconds
+  Import took 0.009942 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.312637 seconds.
+  path: Assets/weaponpack_assets/Sprites/Render/ammo_uzi.png
+  artifactKey: Guid(2aab82165869c314a9ff84549ef9bc9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/weaponpack_assets/Sprites/Render/ammo_uzi.png using Guid(2aab82165869c314a9ff84549ef9bc9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c435c2d5a67d303850243abb61d8cc22') in 0.011626 seconds
+  Import took 0.014360 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/weaponpack_assets/Sprites/Silhouette/ammo_uzi.png
+  artifactKey: Guid(efab65e3e38449f4c812c770810880b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/weaponpack_assets/Sprites/Silhouette/ammo_uzi.png using Guid(efab65e3e38449f4c812c770810880b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12722b9badd51250e7fce0776feca6fe') in 0.007796 seconds
+  Import took 0.010032 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.885712 seconds.
+  path: Assets/Five Seamless Tileable Ground Textures
+  artifactKey: Guid(05a77cc63c484574b96064ac37378fcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Five Seamless Tileable Ground Textures using Guid(05a77cc63c484574b96064ac37378fcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3af308e5ad0acfe56a3df5f51569bc4') in 0.005354 seconds
+  Import took 0.007726 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.222838 seconds.
+  path: Assets/Five Seamless Tileable Ground Textures/Textures
+  artifactKey: Guid(8b6774dd028bce841a27894a8d7b580e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Five Seamless Tileable Ground Textures/Textures using Guid(8b6774dd028bce841a27894a8d7b580e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35945e596d7be06ee15823253e06eaa2') in 0.004535 seconds
+  Import took 0.006943 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.070628 seconds.
+  path: Assets/Five Seamless Tileable Ground Textures/Textures/Brown Stony Light.png
+  artifactKey: Guid(b1bf77c85bc87b44f8231605748c2b76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Five Seamless Tileable Ground Textures/Textures/Brown Stony Light.png using Guid(b1bf77c85bc87b44f8231605748c2b76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd86309da000ed9dca49348461a74f1f1') in 0.008617 seconds
+  Import took 0.011005 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Five Seamless Tileable Ground Textures/Textures/Sandy.png
+  artifactKey: Guid(fe1221309f0d1e04c88ed730fcb94d0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Five Seamless Tileable Ground Textures/Textures/Sandy.png using Guid(fe1221309f0d1e04c88ed730fcb94d0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e59fc5263c27971e0bf35012aa1133f') in 0.008536 seconds
+  Import took 0.010759 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Five Seamless Tileable Ground Textures/Textures/Sandy Orange.png
+  artifactKey: Guid(b9bf32e5f8bd23e40a671eef3c6f5a6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Five Seamless Tileable Ground Textures/Textures/Sandy Orange.png using Guid(b9bf32e5f8bd23e40a671eef3c6f5a6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f5c85562eb1d6e9d54154542b69da46') in 0.012669 seconds
+  Import took 0.015053 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Five Seamless Tileable Ground Textures/Textures/Grey Stones.png
+  artifactKey: Guid(60fdfa47a4e492b4f8fba1fd4d8f3a4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Five Seamless Tileable Ground Textures/Textures/Grey Stones.png using Guid(60fdfa47a4e492b4f8fba1fd4d8f3a4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1249c0000666576c6ec725c9243f4dda') in 0.010605 seconds
+  Import took 0.012944 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Five Seamless Tileable Ground Textures/Textures/Grass.png
+  artifactKey: Guid(a4a961e41faaddd45a46183c4d69d80e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Five Seamless Tileable Ground Textures/Textures/Grass.png using Guid(a4a961e41faaddd45a46183c4d69d80e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24d44a95b8a54de9f025d1d6304d95eb') in 0.011251 seconds
+  Import took 0.013528 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/Five Seamless Tileable Ground Textures/Textures/Water Deep Blue.png
+  artifactKey: Guid(9db26ebe8235b5e42924bb2c54ad0c80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Five Seamless Tileable Ground Textures/Textures/Water Deep Blue.png using Guid(9db26ebe8235b5e42924bb2c54ad0c80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66b9cb6595d2b0748f85e31aa15b6c7b') in 0.012230 seconds
+  Import took 0.014499 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Five Seamless Tileable Ground Textures/Textures/Water Light Blue.png
+  artifactKey: Guid(88f76f18520011749b20fb0977ee6c3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Five Seamless Tileable Ground Textures/Textures/Water Light Blue.png using Guid(88f76f18520011749b20fb0977ee6c3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69928d44e7938821e8b0154af73449d7') in 0.010520 seconds
+  Import took 0.012824 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Five Seamless Tileable Ground Textures/Textures/Brown Stony.png
+  artifactKey: Guid(692557726ce7f2843b9bf1f85480aa80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Five Seamless Tileable Ground Textures/Textures/Brown Stony.png using Guid(692557726ce7f2843b9bf1f85480aa80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7163ca9d3ad0f9efbd8e5b263bfc759') in 0.007896 seconds
+  Import took 0.010167 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.948878 seconds.
+  path: Assets/Five Seamless Tileable Ground Textures/Materials
+  artifactKey: Guid(9068b2150b6234f47b565f5ad357dcf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Five Seamless Tileable Ground Textures/Materials using Guid(9068b2150b6234f47b565f5ad357dcf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8e31cbc9427bd2579bf3c3d11ebe96f') in 0.005742 seconds
+  Import took 0.008512 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.065984 seconds.
+  path: Assets/Five Seamless Tileable Ground Textures/Materials/Brown Stony Light.mat
+  artifactKey: Guid(3c560b1c5b4a7c048ba5f9b87a27ffd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Five Seamless Tileable Ground Textures/Materials/Brown Stony Light.mat using Guid(3c560b1c5b4a7c048ba5f9b87a27ffd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ddcc0d92c0f4603eeb4b35a1d4edc12') in 0.019440 seconds
+  Import took 0.021832 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Five Seamless Tileable Ground Textures/Materials/Brown Stony.mat
+  artifactKey: Guid(1af41386b6aebff43af8aff2e57927a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Five Seamless Tileable Ground Textures/Materials/Brown Stony.mat using Guid(1af41386b6aebff43af8aff2e57927a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c4ebf6d0c5b40c1f2ffdd8d63a4e73a') in 0.008646 seconds
+  Import took 0.010871 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Five Seamless Tileable Ground Textures/Materials/Water Light Blue.mat
+  artifactKey: Guid(fb0d97085daff70438b2a95dcef13a93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Five Seamless Tileable Ground Textures/Materials/Water Light Blue.mat using Guid(fb0d97085daff70438b2a95dcef13a93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7178ae8da655d492ef5aac883ed924a4') in 0.010708 seconds
+  Import took 0.012967 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Five Seamless Tileable Ground Textures/Materials/Grass.mat
+  artifactKey: Guid(11729fa27a679db4fbeedeff9e7512fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Five Seamless Tileable Ground Textures/Materials/Grass.mat using Guid(11729fa27a679db4fbeedeff9e7512fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c192abf9149f88968c07d3a7e4d15488') in 0.009267 seconds
+  Import took 0.011624 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Five Seamless Tileable Ground Textures/Materials/Grey Stones.mat
+  artifactKey: Guid(052821051301bb849ab0e4f50ad32d10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Five Seamless Tileable Ground Textures/Materials/Grey Stones.mat using Guid(052821051301bb849ab0e4f50ad32d10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8570ac0f6a833c61a152fa6df30e096a') in 0.009914 seconds
+  Import took 0.012243 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Five Seamless Tileable Ground Textures/Materials/Water Deep Blue.mat
+  artifactKey: Guid(731960bee06a1174683f3e96b29f5afb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Five Seamless Tileable Ground Textures/Materials/Water Deep Blue.mat using Guid(731960bee06a1174683f3e96b29f5afb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1852644458bde8991d30ece6fd79f04b') in 0.011045 seconds
+  Import took 0.013324 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Five Seamless Tileable Ground Textures/Materials/Sandy Orange.mat
+  artifactKey: Guid(6c8cc2afdf3d02049b71a1f5abc7ab90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Five Seamless Tileable Ground Textures/Materials/Sandy Orange.mat using Guid(6c8cc2afdf3d02049b71a1f5abc7ab90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b75563355f73f4c1517de2887f434af') in 0.013944 seconds
+  Import took 0.016214 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Five Seamless Tileable Ground Textures/Materials/Sandy.mat
+  artifactKey: Guid(bd26e3d2d0f56b54d95b8f3b244d407f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Five Seamless Tileable Ground Textures/Materials/Sandy.mat using Guid(bd26e3d2d0f56b54d95b8f3b244d407f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6fbdfc69a34c5d6961be6a10cb58298') in 0.008767 seconds
+  Import took 0.011007 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002249 seconds.
+  path: Assets/Five Seamless Tileable Ground Textures/Materials/Sandy.mat
+  artifactKey: Guid(bd26e3d2d0f56b54d95b8f3b244d407f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Five Seamless Tileable Ground Textures/Materials/Sandy.mat using Guid(bd26e3d2d0f56b54d95b8f3b244d407f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6fbdfc69a34c5d6961be6a10cb58298') in 0.011128 seconds
+  Import took 0.013597 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.484882 seconds.
+  path: Assets/Cobblestone/CobbleStone textures/coble stone walk road difuse normal alpha.psd
+  artifactKey: Guid(471ad3b12199b314889542a629a37b68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cobblestone/CobbleStone textures/coble stone walk road difuse normal alpha.psd using Guid(471ad3b12199b314889542a629a37b68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aab0f1b1bf6fbd0a874c4d77db5c6a33') in 0.011713 seconds
+  Import took 0.014255 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Cobblestone/CobbleStone textures/coble stone walk road normal.png
+  artifactKey: Guid(cc2e317dde6901a44bc9284e724174a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cobblestone/CobbleStone textures/coble stone walk road normal.png using Guid(cc2e317dde6901a44bc9284e724174a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce9e27675bee1867e7433eae84b01314') in 0.010476 seconds
+  Import took 0.013067 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Cobblestone/CobbleStone textures/coble stone walk road difuse normal alpha.psd
+  artifactKey: Guid(471ad3b12199b314889542a629a37b68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cobblestone/CobbleStone textures/coble stone walk road difuse normal alpha.psd using Guid(471ad3b12199b314889542a629a37b68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aab0f1b1bf6fbd0a874c4d77db5c6a33') in 0.014004 seconds
+  Import took 0.016531 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Cobblestone/CobbleStone textures/coble stone walk road normal.png
+  artifactKey: Guid(cc2e317dde6901a44bc9284e724174a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cobblestone/CobbleStone textures/coble stone walk road normal.png using Guid(cc2e317dde6901a44bc9284e724174a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce9e27675bee1867e7433eae84b01314') in 0.010339 seconds
+  Import took 0.012761 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 151.522264 seconds.
+  path: Assets/Cobblestone
+  artifactKey: Guid(45e478605d78f4f46844cd847bfcf14f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cobblestone using Guid(45e478605d78f4f46844cd847bfcf14f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9967e2a40dfe1dc8d04c7271bd78767d') in 0.005362 seconds
+  Import took 0.008269 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 104.667387 seconds.
+  path: Assets/Cobblestone/CobbleStone textures
+  artifactKey: Guid(ba14d99045246654583a577929717661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cobblestone/CobbleStone textures using Guid(ba14d99045246654583a577929717661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb6f85346963b5600543d40108f3dc62') in 0.004794 seconds
+  Import took 0.007503 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.078216 seconds.
+  path: Assets/Cobblestone/CobbleStone textures/CobbleStone Bump Spec for ball.mat
+  artifactKey: Guid(f69acfcb2dec7bb43847fbc8f1116509) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cobblestone/CobbleStone textures/CobbleStone Bump Spec for ball.mat using Guid(f69acfcb2dec7bb43847fbc8f1116509) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c940d5a307d1e121d13873e2fd30e070') in 0.108002 seconds
+  Import took 0.110495 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Cobblestone/CobbleStone textures/CobbleStone Bump Spec.mat
+  artifactKey: Guid(0f1d01c227dd15c489f52cb712c6b59e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cobblestone/CobbleStone textures/CobbleStone Bump Spec.mat using Guid(0f1d01c227dd15c489f52cb712c6b59e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dfe3c0e1e179484c5f6ef90a6483f5a') in 0.010432 seconds
+  Import took 0.012795 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.046497 seconds.
+  path: Assets/Cobblestone/cobble stone scene
+  artifactKey: Guid(b43e201519272564db5bf941d5d9b144) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cobblestone/cobble stone scene using Guid(b43e201519272564db5bf941d5d9b144) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac8016cff249c675b7992ef91f625856') in 0.004905 seconds
+  Import took 0.007302 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.068225 seconds.
+  path: Assets/Cobblestone/cobble stone scene/LightmapFar-0.exr
+  artifactKey: Guid(0580559007218b84196fac393f329ab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cobblestone/cobble stone scene/LightmapFar-0.exr using Guid(0580559007218b84196fac393f329ab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3943b497af6924127a9c4b177b31b523') in 0.012531 seconds
+  Import took 0.015159 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Cobblestone/cobble stone scene/LightmapNear-0.exr
+  artifactKey: Guid(1bacf0524e8c42846866eef387245334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cobblestone/cobble stone scene/LightmapNear-0.exr using Guid(1bacf0524e8c42846866eef387245334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7b80f2ac8f1a3747423c81de6242501') in 0.008406 seconds
+  Import took 0.010925 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001492 seconds.
+Registered in 0.001443 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.45 ms, found 3 plugins.
@@ -116,98 +524,69 @@ NullReferenceException: Object reference not set to an instance of an object
 (Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  0.681 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Unloading 1645 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 110.4 MB.
-System memory in use after: 110.4 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2178.
-Total: 1.583300 ms (FindLiveObjects: 0.152700 ms CreateObjectMapping: 0.054000 ms MarkObjects: 1.311500 ms  DeleteObjects: 0.064300 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 216.932064 seconds.
-  path: Assets/characterMedium@Zombie Dying.fbx
-  artifactKey: Guid(2907450b8f6df13448797fd60bb62f47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/characterMedium@Zombie Dying.fbx using Guid(2907450b8f6df13448797fd60bb62f47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b7727866ef073bc400b4b36e996eb90') in 0.074822 seconds
-  Import took 0.078117 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 80.439989 seconds.
-  path: Assets/Zombie.controller
-  artifactKey: Guid(c59d625eb9f837f4db8ba3e2040c3441) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombie.controller using Guid(c59d625eb9f837f4db8ba3e2040c3441) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75e3e8b4ad440a217c6740933a34e2d6') in 0.005305 seconds
-  Import took 0.008292 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001511 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.44 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\andre\Desktop\Class Projects\Repos\Zombie-VR-Survival\Zombie-VR-Survival\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\andre\Desktop\Class Projects\Repos\Zombie-VR-Survival\Zombie-VR-Survival\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  0.664 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.44 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
-Unloading 1645 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 110.4 MB.
-System memory in use after: 110.5 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2183.
-Total: 1.579800 ms (FindLiveObjects: 0.148400 ms CreateObjectMapping: 0.050100 ms MarkObjects: 1.322200 ms  DeleteObjects: 0.058300 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001540 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.44 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\andre\Desktop\Class Projects\Repos\Zombie-VR-Survival\Zombie-VR-Survival\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\andre\Desktop\Class Projects\Repos\Zombie-VR-Survival\Zombie-VR-Survival\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  0.664 seconds
+- Completed reload, in  0.689 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.45 ms, found 3 plugins.
 Preloading 1 native plugins for Editor in 0.07 ms.
 Unloading 1645 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 110.4 MB.
-System memory in use after: 110.5 MB.
+System memory in use before: 111.6 MB.
+System memory in use after: 111.7 MB.
 
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2187.
-Total: 1.980200 ms (FindLiveObjects: 0.246500 ms CreateObjectMapping: 0.090900 ms MarkObjects: 1.571900 ms  DeleteObjects: 0.069800 ms)
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2190.
+Total: 1.620000 ms (FindLiveObjects: 0.178800 ms CreateObjectMapping: 0.063400 ms MarkObjects: 1.306700 ms  DeleteObjects: 0.070600 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001435 seconds.
+Registered in 0.001476 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.44 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\andre\Desktop\Class Projects\Repos\Zombie-VR-Survival\Zombie-VR-Survival\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\andre\Desktop\Class Projects\Repos\Zombie-VR-Survival\Zombie-VR-Survival\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.672 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.44 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 1645 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 111.7 MB.
+System memory in use after: 111.7 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2194.
+Total: 1.791000 ms (FindLiveObjects: 0.186900 ms CreateObjectMapping: 0.062900 ms MarkObjects: 1.463200 ms  DeleteObjects: 0.077400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 2006.677298 seconds.
+  path: Assets/New Terrain 2.asset
+  artifactKey: Guid(8316eb930f0ce6d48bdfa54a0ee2bf73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain 2.asset using Guid(8316eb930f0ce6d48bdfa54a0ee2bf73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e8b5e6a6a86e1a5bcecb8dd429324da') in 0.032666 seconds
+  Import took 0.035472 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/NewLayer 2.terrainlayer
+  artifactKey: Guid(d106a7f5639a32644af7037b9ca35cff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewLayer 2.terrainlayer using Guid(d106a7f5639a32644af7037b9ca35cff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebe69ea2e4fb5145bb74ad6cafa1a9cf') in 0.014240 seconds
+  Import took 0.016515 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001533 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 3 plugins.
 Preloading 1 native plugins for Editor in 0.08 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
@@ -219,159 +598,24 @@ NullReferenceException: Object reference not set to an instance of an object
 (Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  0.673 seconds
+- Completed reload, in  0.671 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.45 ms, found 3 plugins.
 Preloading 1 native plugins for Editor in 0.07 ms.
 Unloading 1645 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 110.4 MB.
-System memory in use after: 110.5 MB.
+System memory in use before: 111.7 MB.
+System memory in use after: 111.8 MB.
 
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2191.
-Total: 1.634900 ms (FindLiveObjects: 0.153300 ms CreateObjectMapping: 0.053900 ms MarkObjects: 1.365400 ms  DeleteObjects: 0.061500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001731 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.44 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\andre\Desktop\Class Projects\Repos\Zombie-VR-Survival\Zombie-VR-Survival\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\andre\Desktop\Class Projects\Repos\Zombie-VR-Survival\Zombie-VR-Survival\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  0.669 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Unloading 1645 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 110.4 MB.
-System memory in use after: 110.5 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2195.
-Total: 1.720600 ms (FindLiveObjects: 0.188400 ms CreateObjectMapping: 0.059100 ms MarkObjects: 1.402400 ms  DeleteObjects: 0.070100 ms)
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2200.
+Total: 1.627200 ms (FindLiveObjects: 0.166200 ms CreateObjectMapping: 0.053800 ms MarkObjects: 1.337900 ms  DeleteObjects: 0.068600 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001603 seconds.
+Registered in 0.001454 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\andre\Desktop\Class Projects\Repos\Zombie-VR-Survival\Zombie-VR-Survival\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\andre\Desktop\Class Projects\Repos\Zombie-VR-Survival\Zombie-VR-Survival\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  0.676 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.44 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Unloading 1645 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 110.5 MB.
-System memory in use after: 110.5 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2199.
-Total: 1.616300 ms (FindLiveObjects: 0.162600 ms CreateObjectMapping: 0.052600 ms MarkObjects: 1.331900 ms  DeleteObjects: 0.068500 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 2646.627399 seconds.
-  path: Assets/JMO Assets/WarFX/Desktop/Materials/Impacts/WFX_M_Impact Smoke.mat
-  artifactKey: Guid(450dd918846b28b408e044f16f827449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/WarFX/Desktop/Materials/Impacts/WFX_M_Impact Smoke.mat using Guid(450dd918846b28b408e044f16f827449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a597713185b13dd3726788356f99056e') in 0.056042 seconds
-  Import took 0.060028 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.005320 seconds.
-  path: Assets/JMO Assets/WarFX/Desktop/Materials/Impacts/WFX_M_Impact Smoke.mat
-  artifactKey: Guid(450dd918846b28b408e044f16f827449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/WarFX/Desktop/Materials/Impacts/WFX_M_Impact Smoke.mat using Guid(450dd918846b28b408e044f16f827449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a597713185b13dd3726788356f99056e') in 0.007861 seconds
-  Import took 0.010348 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 32.125824 seconds.
-  path: Assets/JMO Assets/WarFX/Desktop/Materials/Impacts/WFX_M_Impact WoodDebris.mat
-  artifactKey: Guid(078ce4622ab78df4aa7130cddc6c0b5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/WarFX/Desktop/Materials/Impacts/WFX_M_Impact WoodDebris.mat using Guid(078ce4622ab78df4aa7130cddc6c0b5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe21faffbc8fc2a5c93d82c2821e3c34') in 0.012715 seconds
-  Import took 0.015780 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000156 seconds.
-  path: Assets/JMO Assets/WarFX/Desktop/Textures/Smoke/WFX_T_SmokeLoopAlpha.tga
-  artifactKey: Guid(a222b3d2c604e1946af11e01d29efdee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/WarFX/Desktop/Textures/Smoke/WFX_T_SmokeLoopAlpha.tga using Guid(a222b3d2c604e1946af11e01d29efdee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f037bdc5b35f5b6411942429aa98667') in 0.014079 seconds
-  Import took 0.016737 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000139 seconds.
-  path: Assets/JMO Assets/WarFX/Desktop/Textures/Misc/WFX_T_Debris Wood.tga
-  artifactKey: Guid(6499ec80e8fac904592dfa142f3436ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/WarFX/Desktop/Textures/Misc/WFX_T_Debris Wood.tga using Guid(6499ec80e8fac904592dfa142f3436ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18acc99da6dfc757985f525c223c2e19') in 0.008510 seconds
-  Import took 0.011210 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001516 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\andre\Desktop\Class Projects\Repos\Zombie-VR-Survival\Zombie-VR-Survival\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\andre\Desktop\Class Projects\Repos\Zombie-VR-Survival\Zombie-VR-Survival\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  0.691 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.45 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Unloading 1645 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 110.5 MB.
-System memory in use after: 110.6 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2205.
-Total: 1.649000 ms (FindLiveObjects: 0.191500 ms CreateObjectMapping: 0.068100 ms MarkObjects: 1.327700 ms  DeleteObjects: 0.061000 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 31.212663 seconds.
-  path: Assets/JMO Assets/WarFX/_Effects/Bullet Impacts/WFX_BImpact Wood.prefab
-  artifactKey: Guid(ac1aa04288fad804ba1cd769f4377aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/WarFX/_Effects/Bullet Impacts/WFX_BImpact Wood.prefab using Guid(ac1aa04288fad804ba1cd769f4377aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6668f1cb86b6dd7bff7ab441f3b3ff7') in 0.025077 seconds
-  Import took 0.028378 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001433 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
 Preloading 1 native plugins for Editor in 0.07 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
@@ -387,45 +631,21 @@ Mono: successfully reloaded assembly
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.45 ms, found 3 plugins.
 Preloading 1 native plugins for Editor in 0.07 ms.
-Unloading 1645 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 110.5 MB.
-System memory in use after: 110.6 MB.
+Unloading 1646 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 111.7 MB.
+System memory in use after: 111.8 MB.
 
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2210.
-Total: 1.593600 ms (FindLiveObjects: 0.173700 ms CreateObjectMapping: 0.054700 ms MarkObjects: 1.302600 ms  DeleteObjects: 0.061900 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 143.606828 seconds.
-  path: Assets/WFX_BImpact Wood.prefab
-  artifactKey: Guid(1c18456b0b80c204fa3364725f53e0d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/WFX_BImpact Wood.prefab using Guid(1c18456b0b80c204fa3364725f53e0d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71a10e00132649b6b81f063cdbfcdb36') in 0.021980 seconds
-  Import took 0.025754 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.578377 seconds.
-  path: Assets/BloodSplatter.prefab
-  artifactKey: Guid(1c18456b0b80c204fa3364725f53e0d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BloodSplatter.prefab using Guid(1c18456b0b80c204fa3364725f53e0d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '682890e73c54747942a9e9f2934e2b04') in 0.006324 seconds
-  Import took 0.009480 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.003502 seconds.
-  path: Assets/BloodSplatter.prefab
-  artifactKey: Guid(1c18456b0b80c204fa3364725f53e0d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BloodSplatter.prefab using Guid(1c18456b0b80c204fa3364725f53e0d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '682890e73c54747942a9e9f2934e2b04') in 0.003203 seconds
-  Import took 0.005784 seconds .
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2205.
+Total: 1.790800 ms (FindLiveObjects: 0.189600 ms CreateObjectMapping: 0.060400 ms MarkObjects: 1.467700 ms  DeleteObjects: 0.072300 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001523 seconds.
+Registered in 0.001657 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.45 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
+Preloading 1 native plugins for Editor in 0.08 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
@@ -436,730 +656,21 @@ NullReferenceException: Object reference not set to an instance of an object
 (Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  0.667 seconds
+- Completed reload, in  0.673 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.44 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
 Preloading 1 native plugins for Editor in 0.07 ms.
-Unloading 1645 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 110.5 MB.
-System memory in use after: 110.6 MB.
+Unloading 1646 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 111.8 MB.
+System memory in use after: 111.8 MB.
 
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2214.
-Total: 1.651500 ms (FindLiveObjects: 0.168700 ms CreateObjectMapping: 0.050900 ms MarkObjects: 1.370500 ms  DeleteObjects: 0.060700 ms)
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2209.
+Total: 1.743300 ms (FindLiveObjects: 0.193400 ms CreateObjectMapping: 0.064600 ms MarkObjects: 1.414300 ms  DeleteObjects: 0.070200 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001457 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\andre\Desktop\Class Projects\Repos\Zombie-VR-Survival\Zombie-VR-Survival\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\andre\Desktop\Class Projects\Repos\Zombie-VR-Survival\Zombie-VR-Survival\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  0.667 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.45 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Unloading 1645 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 110.6 MB.
-System memory in use after: 110.6 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2218.
-Total: 1.728300 ms (FindLiveObjects: 0.194200 ms CreateObjectMapping: 0.069700 ms MarkObjects: 1.401000 ms  DeleteObjects: 0.062700 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 436.921175 seconds.
-  path: Assets/animated-characters-1/Skins/Materials/zombieA.mat
-  artifactKey: Guid(99df35af585f6154c9a9391812f826aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/animated-characters-1/Skins/Materials/zombieA.mat using Guid(99df35af585f6154c9a9391812f826aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32b1c17adf9be87ce5824a54841d64ce') in 2.504494 seconds
-  Import took 2.646351 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001037 seconds.
-  path: Assets/city-kit-urban-1/Models/OBJ format/fence_medium.obj
-  artifactKey: Guid(57efca321319aff4fa08ebb7d955c178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/city-kit-urban-1/Models/OBJ format/fence_medium.obj using Guid(57efca321319aff4fa08ebb7d955c178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed381f436d8e40c5f0e67003e8fb1cbe') in 4.093523 seconds
-  Import took 4.173125 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.123818 seconds.
-  path: Assets/city-kit-urban-1/Models/DAE format/house_type02.dae
-  artifactKey: Guid(3aecca80ffcff5a42986c8bacc470d69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/city-kit-urban-1/Models/DAE format/house_type02.dae using Guid(3aecca80ffcff5a42986c8bacc470d69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91b4648850c9df4bcffea93e439bd447') in 5.640618 seconds
-  Import took 5.645745 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.197800 seconds.
-  path: Assets/kenney_citykitroads/Models/OBJ format/bridge_pillarWide.obj
-  artifactKey: Guid(8108f94b2eaf2cd4fb0b948b403e1024) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/kenney_citykitroads/Models/OBJ format/bridge_pillarWide.obj using Guid(8108f94b2eaf2cd4fb0b948b403e1024) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b0682cf536672387d4dceff7a00fffa') in 3.028917 seconds
-  Import took 3.034584 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.079365 seconds.
-  path: Assets/kenney_citykitroads/Models/DAE format/road_drivewaySingle.dae
-  artifactKey: Guid(860c3ec5063da904d98b75274cdd6aff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/kenney_citykitroads/Models/DAE format/road_drivewaySingle.dae using Guid(860c3ec5063da904d98b75274cdd6aff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '020678681c0b3bb51d0bc01293a3f50a') in 4.117312 seconds
-  Import took 4.122878 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.072919 seconds.
-  path: Assets/city-kit-urban-1/Models/DAE format/driveway_short.dae
-  artifactKey: Guid(d632116f526e4814983a21db5703d61e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/city-kit-urban-1/Models/DAE format/driveway_short.dae using Guid(d632116f526e4814983a21db5703d61e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08c95774637897a7ca0b5574ded769bc') in 0.561122 seconds
-  Import took 0.736627 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.121873 seconds.
-  path: Assets/kenney_citykitroads/Models/DAE format/road_bridge.dae
-  artifactKey: Guid(67b0377e5d73297488981ad14bfe5999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/kenney_citykitroads/Models/DAE format/road_bridge.dae using Guid(67b0377e5d73297488981ad14bfe5999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7120cd81bcd83c54d116a3f8347d9a8') in 2.885125 seconds
-  Import took 2.889416 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.060455 seconds.
-  path: Assets/city-kit-urban-1/Models/DAE format/fence_short.dae
-  artifactKey: Guid(d3cb4e20a186f114aa195b38ac9a8d97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/city-kit-urban-1/Models/DAE format/fence_short.dae using Guid(d3cb4e20a186f114aa195b38ac9a8d97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c777c533ba7473e64d88a9a532a0ab0') in 2.583574 seconds
-  Import took 2.588368 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.626655 seconds.
-  path: Assets/city-kit-urban-1/Models/OBJ format/tree_small.obj
-  artifactKey: Guid(1c1e7ae77b6b6d44f95134803e5d3605) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/city-kit-urban-1/Models/OBJ format/tree_small.obj using Guid(1c1e7ae77b6b6d44f95134803e5d3605) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49f9fac8ad9b3c580601a9c15535a1e5') in 0.755582 seconds
-  Import took 0.761349 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.162681 seconds.
-  path: Assets/city-kit-urban-1/Models/OBJ format/tree_large.obj
-  artifactKey: Guid(09e35ee20bb492643825001469f40009) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/city-kit-urban-1/Models/OBJ format/tree_large.obj using Guid(09e35ee20bb492643825001469f40009) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae62a4882a4e838d3fe03c2a4d62866a') in 0.335112 seconds
-  Import took 0.339826 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.172986 seconds.
-  path: Assets/kenney_citykitroads/Models/OBJ format/road_side.obj
-  artifactKey: Guid(d44facc326e5ed449bd48301b980b020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/kenney_citykitroads/Models/OBJ format/road_side.obj using Guid(d44facc326e5ed449bd48301b980b020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3130fb93db4d674783d77402d9ce5c5a') in 0.457276 seconds
-  Import took 0.461388 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001437 seconds.
-  path: Assets/city-kit-urban-1/Models/DAE format/tree_small.dae
-  artifactKey: Guid(c51a5c2fb8d96a4498a0b22ee1fbd5ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/city-kit-urban-1/Models/DAE format/tree_small.dae using Guid(c51a5c2fb8d96a4498a0b22ee1fbd5ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2af4511f29ad05a5348ffefa902841c7') in 0.205333 seconds
-  Import took 0.213400 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000223 seconds.
-  path: Assets/city-kit-urban-1/Models/OBJ format/house_type01.obj
-  artifactKey: Guid(c3f6e0925054a5f4bb8358c16306dc98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/city-kit-urban-1/Models/OBJ format/house_type01.obj using Guid(c3f6e0925054a5f4bb8358c16306dc98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '145c5a95589adaa5b2c8cd794daf632d') in 0.511720 seconds
-  Import took 0.521014 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002376 seconds.
-  path: Assets/kenney_citykitroads/Models/OBJ format/road_roundabout.obj
-  artifactKey: Guid(2d1008ba36eab564fa4cbba8af408fab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/kenney_citykitroads/Models/OBJ format/road_roundabout.obj using Guid(2d1008ba36eab564fa4cbba8af408fab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0348338c92e38bb20a406179655db2a') in 3.153552 seconds
-  Import took 3.228283 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.391711 seconds.
-  path: Assets/kenney_citykitroads/Models/DAE format/road_curvePavement.dae
-  artifactKey: Guid(5962c184ff8d78c46ae7ad7fb360995f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/kenney_citykitroads/Models/DAE format/road_curvePavement.dae using Guid(5962c184ff8d78c46ae7ad7fb360995f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ce3d926d09cc14953a316ba2861cbca') in 4.399992 seconds
-  Import took 5.203591 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.021763 seconds.
-  path: Assets/kenney_citykitroads/Models/DAE format/road_drivewayDoubleBarrier.dae
-  artifactKey: Guid(10405661cefe29d4e9cb610f18f7a026) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/kenney_citykitroads/Models/DAE format/road_drivewayDoubleBarrier.dae using Guid(10405661cefe29d4e9cb610f18f7a026) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db8ca65dbe6e4d457c83c5dd922fb7f9') in 1.429408 seconds
-  Import took 1.437083 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.074369 seconds.
-  path: Assets/kenney_citykitroads/Models/OBJ format/road_intersectionPath.obj
-  artifactKey: Guid(d28f30ce455de9044841a2325584dc1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/kenney_citykitroads/Models/OBJ format/road_intersectionPath.obj using Guid(d28f30ce455de9044841a2325584dc1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '159eec8fb781df9d6fd6d47719fd2f98') in 1.279076 seconds
-  Import took 1.289942 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000179 seconds.
-  path: Assets/kenney_citykitroads/Models/DAE format/road_curveIntersection.dae
-  artifactKey: Guid(0415d424a61f90b41b9191865bfd0415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/kenney_citykitroads/Models/DAE format/road_curveIntersection.dae using Guid(0415d424a61f90b41b9191865bfd0415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd86c3d25a4cedca90745e754e9a07e35') in 0.031206 seconds
-  Import took 0.034570 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000144 seconds.
-  path: Assets/city-kit-urban-1/Models/DAE format/house_type14.dae
-  artifactKey: Guid(95fbeb0fcbdafbd4c8b7905eacbb4e2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/city-kit-urban-1/Models/DAE format/house_type14.dae using Guid(95fbeb0fcbdafbd4c8b7905eacbb4e2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed763aaf1fb937879b1365e323ad46ec') in 0.031345 seconds
-  Import took 0.034216 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000137 seconds.
-  path: Assets/city-kit-urban-1/Models/OBJ format/fence_wide.obj
-  artifactKey: Guid(84a8094b54542334faa3745dea8e04b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/city-kit-urban-1/Models/OBJ format/fence_wide.obj using Guid(84a8094b54542334faa3745dea8e04b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a5c0e0aba5a6dddcf8abb2f6b1d7417') in 0.020467 seconds
-  Import took 0.023049 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000144 seconds.
-  path: Assets/kenney_citykitroads/Models/DAE format/road_drivewayDouble.dae
-  artifactKey: Guid(0b4505cda6eba384089bde8dca29df9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/kenney_citykitroads/Models/DAE format/road_drivewayDouble.dae using Guid(0b4505cda6eba384089bde8dca29df9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2db04b801371f2bec7d46bb3e8fd410') in 0.023691 seconds
-  Import took 0.026632 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000121 seconds.
-  path: Assets/city-kit-urban-1/Models/DAE format/house_type16.dae
-  artifactKey: Guid(4567660fda38a1041809eeaadd393c84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/city-kit-urban-1/Models/DAE format/house_type16.dae using Guid(4567660fda38a1041809eeaadd393c84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a78bbef89faf34e93d93c2d1609a9e74') in 0.027093 seconds
-  Import took 0.029883 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000128 seconds.
-  path: Assets/city-kit-urban-1/Models/OBJ format/house_type12.obj
-  artifactKey: Guid(3e1fcbdda8504154aa73ef19ece20b54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/city-kit-urban-1/Models/OBJ format/house_type12.obj using Guid(3e1fcbdda8504154aa73ef19ece20b54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a506265823d9940fa0c17f0a209ea4f') in 0.028104 seconds
-  Import took 0.031028 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000129 seconds.
-  path: Assets/kenney_citykitroads/Models/OBJ format/road_sideEntry.obj
-  artifactKey: Guid(6b17bb20068d77549af781cf8f1cd7b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/kenney_citykitroads/Models/OBJ format/road_sideEntry.obj using Guid(6b17bb20068d77549af781cf8f1cd7b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73a854c10654c215c19e9195ee011030') in 0.027900 seconds
-  Import took 0.030668 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000129 seconds.
-  path: Assets/city-kit-urban-1/Models/DAE format/house_type07.dae
-  artifactKey: Guid(040217aed8928084abd80e05fe18d9b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/city-kit-urban-1/Models/DAE format/house_type07.dae using Guid(040217aed8928084abd80e05fe18d9b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24084801edfccaf37f43a5f10cc1ef7d') in 0.025496 seconds
-  Import took 0.028364 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000129 seconds.
-  path: Assets/city-kit-urban-1/Models/OBJ format/fence_rectangle.obj
-  artifactKey: Guid(58c4936fba29db24da73b2f88c4dedc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/city-kit-urban-1/Models/OBJ format/fence_rectangle.obj using Guid(58c4936fba29db24da73b2f88c4dedc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e870f33b428d4bed33f510fa32d213f1') in 0.018984 seconds
-  Import took 0.021556 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000136 seconds.
-  path: Assets/city-kit-urban-1/Models/OBJ format/house_type07.obj
-  artifactKey: Guid(977425a421e5f0b419bc7d2665a538c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/city-kit-urban-1/Models/OBJ format/house_type07.obj using Guid(977425a421e5f0b419bc7d2665a538c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96345bc8ff219a9b1b8fd0b9c359c7c1') in 0.026195 seconds
-  Import took 0.029075 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000116 seconds.
-  path: Assets/city-kit-urban-1/Models/OBJ format/fence_large.obj
-  artifactKey: Guid(c3184dcf035b73342b398fdd99d8b1ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/city-kit-urban-1/Models/OBJ format/fence_large.obj using Guid(c3184dcf035b73342b398fdd99d8b1ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a895a5d4951406e809efa9cbeb32f25') in 0.018377 seconds
-  Import took 0.021138 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000183 seconds.
-  path: Assets/city-kit-urban-1/Models/DAE format/fence_wide.dae
-  artifactKey: Guid(96a4eeaae05babb4ca86e3949bc7a3de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/city-kit-urban-1/Models/DAE format/fence_wide.dae using Guid(96a4eeaae05babb4ca86e3949bc7a3de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '161f4fc7b746662570c5dc2f2b0eaf06') in 0.015689 seconds
-  Import took 0.018037 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000116 seconds.
-  path: Assets/city-kit-urban-1/Models/OBJ format/house_type18.obj
-  artifactKey: Guid(4f91a8ca1b4192c43968ded9e146bf78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/city-kit-urban-1/Models/OBJ format/house_type18.obj using Guid(4f91a8ca1b4192c43968ded9e146bf78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b5542e164e3b5ebb97f08552af06473') in 0.028855 seconds
-  Import took 0.031176 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000137 seconds.
-  path: Assets/kenney_citykitroads/Models/DAE format/road_sideEntry.dae
-  artifactKey: Guid(e50653b89a7fb6a4198d0143dfa614ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/kenney_citykitroads/Models/DAE format/road_sideEntry.dae using Guid(e50653b89a7fb6a4198d0143dfa614ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '386ba608406fc5abebd09b66fbe038b9') in 0.023794 seconds
-  Import took 0.026621 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000111 seconds.
-  path: Assets/city-kit-urban-1/Models/DAE format/house_type12.dae
-  artifactKey: Guid(cbf01132b44d0dd439569d843023e245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/city-kit-urban-1/Models/DAE format/house_type12.dae using Guid(cbf01132b44d0dd439569d843023e245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6efea1f0aeddc084e6b1e9f674602bb9') in 0.024652 seconds
-  Import took 0.026879 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000124 seconds.
-  path: Assets/kenney_citykitroads/Models/DAE format/road_intersectionLine.dae
-  artifactKey: Guid(eb317cc2936e7274595dd34137624012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/kenney_citykitroads/Models/DAE format/road_intersectionLine.dae using Guid(eb317cc2936e7274595dd34137624012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb3c479a50e8c34c66a98f74906ec221') in 0.022985 seconds
-  Import took 0.025754 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000122 seconds.
-  path: Assets/city-kit-urban-1/Models/DAE format/path_short.dae
-  artifactKey: Guid(1bec34a3fecb3af4997024a30059e725) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/city-kit-urban-1/Models/DAE format/path_short.dae using Guid(1bec34a3fecb3af4997024a30059e725) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e231c9c29ebdc1de48014bd14764dd8') in 0.019458 seconds
-  Import took 0.021829 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000125 seconds.
-  path: Assets/city-kit-urban-1/Models/OBJ format/house_type09.obj
-  artifactKey: Guid(415b31ff194a67a4bada9b270e74319c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/city-kit-urban-1/Models/OBJ format/house_type09.obj using Guid(415b31ff194a67a4bada9b270e74319c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f9c4224ce5e802d511d62c5a9f45421') in 0.028266 seconds
-  Import took 0.030874 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000176 seconds.
-  path: Assets/kenney_citykitroads/Models/DAE format/road_endBarrier.dae
-  artifactKey: Guid(6e13e42790d96d8438b0caf60b62f4fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/kenney_citykitroads/Models/DAE format/road_endBarrier.dae using Guid(6e13e42790d96d8438b0caf60b62f4fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab02a98ebc6dbb65324a3de46994b703') in 0.016148 seconds
-  Import took 0.018744 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000127 seconds.
-  path: Assets/kenney_citykitroads/Models/OBJ format/road_curve.obj
-  artifactKey: Guid(a0054a9feeae0684e95f7c78a3a29f97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/kenney_citykitroads/Models/OBJ format/road_curve.obj using Guid(a0054a9feeae0684e95f7c78a3a29f97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf15aad50fd76efc821bee4ad18f9d82') in 0.026172 seconds
-  Import took 0.028854 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000129 seconds.
-  path: Assets/city-kit-urban-1/Models/DAE format/driveway_long.dae
-  artifactKey: Guid(9b2b3d314e76b6c4ea4be54811cf23ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/city-kit-urban-1/Models/DAE format/driveway_long.dae using Guid(9b2b3d314e76b6c4ea4be54811cf23ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b009174aba5752385908a3a83d103bb') in 0.019418 seconds
-  Import took 0.022092 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000135 seconds.
-  path: Assets/city-kit-urban-1/Models/DAE format/house_type01.dae
-  artifactKey: Guid(54e9f96ec9c49a8409bc0b4bedde6ccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/city-kit-urban-1/Models/DAE format/house_type01.dae using Guid(54e9f96ec9c49a8409bc0b4bedde6ccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5a83a5ebad787032a8cda9180b1d9c9') in 0.024937 seconds
-  Import took 0.027267 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000112 seconds.
-  path: Assets/city-kit-urban-1/Models/DAE format/house_type18.dae
-  artifactKey: Guid(a3853366174908241b58ab62372c9a30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/city-kit-urban-1/Models/DAE format/house_type18.dae using Guid(a3853366174908241b58ab62372c9a30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36a0bb651736348a0daea7d82dc5d09e') in 0.027175 seconds
-  Import took 0.029738 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000150 seconds.
-  path: Assets/city-kit-urban-1/Models/DAE format/fence_medium.dae
-  artifactKey: Guid(285b36858dda41640b3babb5f3811a40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/city-kit-urban-1/Models/DAE format/fence_medium.dae using Guid(285b36858dda41640b3babb5f3811a40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e37d30b2516e3c3868a59e9259d295c7') in 0.016839 seconds
-  Import took 0.019573 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000115 seconds.
-  path: Assets/kenney_citykitroads/Models/OBJ format/road_curveIntersection.obj
-  artifactKey: Guid(2e34b25e82dc67d4099939d4062e6a04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/kenney_citykitroads/Models/OBJ format/road_curveIntersection.obj using Guid(2e34b25e82dc67d4099939d4062e6a04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e486cd69e9793edd22d8ad633e46a242') in 0.026299 seconds
-  Import took 0.028764 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000131 seconds.
-  path: Assets/city-kit-urban-1/Models/DAE format/house_type15.dae
-  artifactKey: Guid(eba4476e55d74264391afdc5e8737f54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/city-kit-urban-1/Models/DAE format/house_type15.dae using Guid(eba4476e55d74264391afdc5e8737f54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a986c1f97c66fb6c091664bfecb434eb') in 0.026727 seconds
-  Import took 0.029407 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000115 seconds.
-  path: Assets/city-kit-urban-1/Models/OBJ format/driveway_short.obj
-  artifactKey: Guid(00dbb8321f82571499efe0f40d85f069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/city-kit-urban-1/Models/OBJ format/driveway_short.obj using Guid(00dbb8321f82571499efe0f40d85f069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '539eff1016b54001e42e705c7f07e69c') in 0.019986 seconds
-  Import took 0.022322 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000110 seconds.
-  path: Assets/city-kit-urban-1/Models/OBJ format/house_type15.obj
-  artifactKey: Guid(5f06e07659020cc4899947043b9864cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/city-kit-urban-1/Models/OBJ format/house_type15.obj using Guid(5f06e07659020cc4899947043b9864cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51f1fe99a446f2c82f51053716fc2b95') in 0.027284 seconds
-  Import took 0.029595 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000123 seconds.
-  path: Assets/city-kit-urban-1/Models/OBJ format/house_type17.obj
-  artifactKey: Guid(26864a387980f4a42ac8a9ac6b12dfe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/city-kit-urban-1/Models/OBJ format/house_type17.obj using Guid(26864a387980f4a42ac8a9ac6b12dfe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cacc12d3948743829b8ec63558d30337') in 0.027313 seconds
-  Import took 0.029620 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000123 seconds.
-  path: Assets/city-kit-urban-1/Models/OBJ format/path_short.obj
-  artifactKey: Guid(a29e99ccc4b12584b9788f3df0da022b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/city-kit-urban-1/Models/OBJ format/path_short.obj using Guid(a29e99ccc4b12584b9788f3df0da022b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aba6c8751857bfe0fddc64799cdf1fda') in 0.019665 seconds
-  Import took 0.022018 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000128 seconds.
-  path: Assets/kenney_citykitroads/Models/DAE format/road_intersection.dae
-  artifactKey: Guid(50d1989837d4fe144a1882b6c6b401df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/kenney_citykitroads/Models/DAE format/road_intersection.dae using Guid(50d1989837d4fe144a1882b6c6b401df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14a92537e5661ea5e86b513354dcd861') in 0.024332 seconds
-  Import took 0.026738 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000123 seconds.
-  path: Assets/kenney_citykitroads/Models/DAE format/road_sideExit.dae
-  artifactKey: Guid(3ae79d5166c48b5459fa37f5a83bf773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/kenney_citykitroads/Models/DAE format/road_sideExit.dae using Guid(3ae79d5166c48b5459fa37f5a83bf773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd84a36584e7eeb07bbf014fd118554a5') in 0.024789 seconds
-  Import took 0.027079 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000118 seconds.
-  path: Assets/kenney_citykitroads/Models/OBJ format/construction_barrier.obj
-  artifactKey: Guid(24d0584e207d3d641924ffb09d12cd52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/kenney_citykitroads/Models/OBJ format/construction_barrier.obj using Guid(24d0584e207d3d641924ffb09d12cd52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd91e24ae9efe8291c75b2c02e0b76e89') in 0.018627 seconds
-  Import took 0.021022 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000127 seconds.
-  path: Assets/city-kit-urban-1/Models/OBJ format/fence_small.obj
-  artifactKey: Guid(fd0648ca582f04440a6a4198efe89d57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/city-kit-urban-1/Models/OBJ format/fence_small.obj using Guid(fd0648ca582f04440a6a4198efe89d57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3272fb24dff3b759d2519245ee34dca3') in 0.019430 seconds
-  Import took 0.021759 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000124 seconds.
-  path: Assets/kenney_citykitroads/Models/OBJ format/light_curvedDouble.obj
-  artifactKey: Guid(58940fe2e5d7caa4f91126d4fea8bc2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/kenney_citykitroads/Models/OBJ format/light_curvedDouble.obj using Guid(58940fe2e5d7caa4f91126d4fea8bc2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bf65d2d37c8f0fa82ee2804af4beec9') in 0.023118 seconds
-  Import took 0.025813 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000136 seconds.
-  path: Assets/city-kit-urban-1/Models/DAE format/fence_large.dae
-  artifactKey: Guid(53c1cdcf1d679c649a945c1783688ea5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/city-kit-urban-1/Models/DAE format/fence_large.dae using Guid(53c1cdcf1d679c649a945c1783688ea5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcc9c9b1a0bc8ffddda72b92304bfcf4') in 0.016994 seconds
-  Import took 0.019423 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000127 seconds.
-  path: Assets/city-kit-urban-1/Models/DAE format/fence_rectangle.dae
-  artifactKey: Guid(4b31da0b8969b654e92720c91c16ce09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/city-kit-urban-1/Models/DAE format/fence_rectangle.dae using Guid(4b31da0b8969b654e92720c91c16ce09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f1ebeec8f31ac58ba9310a9b10dec27') in 0.015523 seconds
-  Import took 0.017893 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000120 seconds.
-  path: Assets/kenney_citykitroads/Models/DAE format/road_slant.dae
-  artifactKey: Guid(b1cec0fec61c15348a6df793314bf27c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/kenney_citykitroads/Models/DAE format/road_slant.dae using Guid(b1cec0fec61c15348a6df793314bf27c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10e183dda8f761c295798958c9aaeecf') in 0.023282 seconds
-  Import took 0.025838 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000163 seconds.
-  path: Assets/city-kit-urban-1/Models/OBJ format/house_type14.obj
-  artifactKey: Guid(84e887194b6debc4f85858be8c449957) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/city-kit-urban-1/Models/OBJ format/house_type14.obj using Guid(84e887194b6debc4f85858be8c449957) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9531aedda819700ec484d2f893193d4') in 0.028527 seconds
-  Import took 0.031480 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000148 seconds.
-  path: Assets/kenney_citykitroads/Models/OBJ format/road_crossroadLine.obj
-  artifactKey: Guid(8ac52ae9eced64c4ea755390f42b0897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/kenney_citykitroads/Models/OBJ format/road_crossroadLine.obj using Guid(8ac52ae9eced64c4ea755390f42b0897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b9c61f5428098e0f79f1441b2fcd37e') in 0.031032 seconds
-  Import took 0.033468 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000152 seconds.
-  path: Assets/city-kit-urban-1/Models/DAE format/house_type11.dae
-  artifactKey: Guid(a622f3889198ab84b80b6b3c445488bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/city-kit-urban-1/Models/DAE format/house_type11.dae using Guid(a622f3889198ab84b80b6b3c445488bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82ee42caa6b6159624633c78a902c268') in 0.026849 seconds
-  Import took 0.029187 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000123 seconds.
-  path: Assets/city-kit-urban-1/Models/OBJ format/path_long.obj
-  artifactKey: Guid(7b9b15a7c4ea2424bb2722c5c4eb3193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/city-kit-urban-1/Models/OBJ format/path_long.obj using Guid(7b9b15a7c4ea2424bb2722c5c4eb3193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7193ba2ceb659efd6da34331955b241') in 0.021217 seconds
-  Import took 0.023840 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000118 seconds.
-  path: Assets/kenney_citykitroads/Models/DAE format/road_split.dae
-  artifactKey: Guid(93f09e940d2e4bc4a95c197bc69efb4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/kenney_citykitroads/Models/DAE format/road_split.dae using Guid(93f09e940d2e4bc4a95c197bc69efb4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b07819c87fec2086cf3ca31f93039ca') in 0.024502 seconds
-  Import took 0.026878 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000124 seconds.
-  path: Assets/city-kit-urban-1/Models/DAE format/house_type04.dae
-  artifactKey: Guid(14f9b8351fa32994aaecde53a6eaec61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/city-kit-urban-1/Models/DAE format/house_type04.dae using Guid(14f9b8351fa32994aaecde53a6eaec61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27f819a463686c9f75f4d8e77721cc2c') in 0.026088 seconds
-  Import took 0.028890 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000123 seconds.
-  path: Assets/city-kit-urban-1/Models/OBJ format/house_type02.obj
-  artifactKey: Guid(dbae9a13bb7e65a4aa90f8591852eac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/city-kit-urban-1/Models/OBJ format/house_type02.obj using Guid(dbae9a13bb7e65a4aa90f8591852eac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9def4ffbafa23b8b87a69945924448c') in 0.027794 seconds
-  Import took 0.030515 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000117 seconds.
-  path: Assets/kenney_citykitroads/Models/OBJ format/light_curvedCross.obj
-  artifactKey: Guid(60aafa3dc1f7765479990d09e821ff81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/kenney_citykitroads/Models/OBJ format/light_curvedCross.obj using Guid(60aafa3dc1f7765479990d09e821ff81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c00539b8d82a82468f293655057f40b') in 0.022877 seconds
-  Import took 0.025626 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000114 seconds.
-  path: Assets/city-kit-urban-1/Models/OBJ format/house_type03.obj
-  artifactKey: Guid(0c3ba8ef10bb841479110359db78faf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/city-kit-urban-1/Models/OBJ format/house_type03.obj using Guid(0c3ba8ef10bb841479110359db78faf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68c173eab8d3db05f88325b9d1bd464f') in 0.027561 seconds
-  Import took 0.029805 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000117 seconds.
-  path: Assets/city-kit-urban-1/Models/DAE format/fence_small.dae
-  artifactKey: Guid(577164627c08db24b90ebf259d83e186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/city-kit-urban-1/Models/DAE format/fence_small.dae using Guid(577164627c08db24b90ebf259d83e186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ea24e774220b098ed3cb6f6637726b8') in 0.015397 seconds
-  Import took 0.018046 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000122 seconds.
-  path: Assets/city-kit-urban-1/Models/OBJ format/fence_short.obj
-  artifactKey: Guid(7cafddc5875b7774fa3835aed552201f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/city-kit-urban-1/Models/OBJ format/fence_short.obj using Guid(7cafddc5875b7774fa3835aed552201f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccf17ab3345a506b8e94ade91d68e469') in 0.020519 seconds
-  Import took 0.023229 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000167 seconds.
-  path: Assets/city-kit-urban-1/Models/DAE format/house_type09.dae
-  artifactKey: Guid(71aef1cac3c79c648875e411804c3057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/city-kit-urban-1/Models/DAE format/house_type09.dae using Guid(71aef1cac3c79c648875e411804c3057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28cf28591395669668fc99062d8fe668') in 0.024772 seconds
-  Import took 0.027286 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000117 seconds.
-  path: Assets/city-kit-urban-1/Models/OBJ format/house_type08.obj
-  artifactKey: Guid(5c75a079ff96220408120fe67156a68a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/city-kit-urban-1/Models/OBJ format/house_type08.obj using Guid(5c75a079ff96220408120fe67156a68a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ccf4f3db27991af529e4e75fd2c78f9') in 0.027197 seconds
-  Import took 0.029508 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000122 seconds.
-  path: Assets/city-kit-urban-1/Models/OBJ format/house_type04.obj
-  artifactKey: Guid(37e405b836a939944ba38cb100f656e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/city-kit-urban-1/Models/OBJ format/house_type04.obj using Guid(37e405b836a939944ba38cb100f656e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '044ec8645f647a7bc451054fb6c12359') in 0.027920 seconds
-  Import took 0.030626 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000130 seconds.
-  path: Assets/city-kit-urban-1/Models/DAE format/path_long.dae
-  artifactKey: Guid(a065c938b51822c448c77fb846455809) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/city-kit-urban-1/Models/DAE format/path_long.dae using Guid(a065c938b51822c448c77fb846455809) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '255daefe31368733628f1a573724bd44') in 0.018139 seconds
-  Import took 0.020855 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000152 seconds.
-  path: Assets/city-kit-urban-1/Models/DAE format/fence_open.dae
-  artifactKey: Guid(dff8b17898e024d4b9994114bd3d5c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/city-kit-urban-1/Models/DAE format/fence_open.dae using Guid(dff8b17898e024d4b9994114bd3d5c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b56236cb70202d1f0e931dd3e6fbd60') in 0.018257 seconds
-  Import took 0.020738 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000133 seconds.
-  path: Assets/city-kit-urban-1/Models/DAE format/house_type03.dae
-  artifactKey: Guid(e4808a27d2194b24297dbab9a181396d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/city-kit-urban-1/Models/DAE format/house_type03.dae using Guid(e4808a27d2194b24297dbab9a181396d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '700893602bea2dc3b0f8d0e11a66c91d') in 0.026573 seconds
-  Import took 0.029458 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000113 seconds.
-  path: Assets/city-kit-urban-1/Models/DAE format/house_type13.dae
-  artifactKey: Guid(ceb0a773975516244a13f0e88090b377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/city-kit-urban-1/Models/DAE format/house_type13.dae using Guid(ceb0a773975516244a13f0e88090b377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd82e604c22aa05d8964a6e3de3bfa61c') in 0.025461 seconds
-  Import took 0.028112 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000121 seconds.
-  path: Assets/city-kit-urban-1/Models/OBJ format/house_type05.obj
-  artifactKey: Guid(fa7d2dd363aabd74ab238897cee929fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/city-kit-urban-1/Models/OBJ format/house_type05.obj using Guid(fa7d2dd363aabd74ab238897cee929fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aefd7fe406ab6795d4f18bf273166596') in 0.027979 seconds
-  Import took 0.030301 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000138 seconds.
-  path: Assets/city-kit-urban-1/Models/OBJ format/house_type21.obj
-  artifactKey: Guid(82638c7310bb16541b20fa8541c80549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/city-kit-urban-1/Models/OBJ format/house_type21.obj using Guid(82638c7310bb16541b20fa8541c80549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea02b1ae33a0568354201ebf4debfb64') in 0.028646 seconds
-  Import took 0.031080 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000137 seconds.
-  path: Assets/kenney_citykitroads/Models/OBJ format/road_sideExit.obj
-  artifactKey: Guid(8c19df75b4659554ba290fccd73fc4c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/kenney_citykitroads/Models/OBJ format/road_sideExit.obj using Guid(8c19df75b4659554ba290fccd73fc4c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '387976be068b2ca2375a2c4cdbe80340') in 0.026808 seconds
-  Import took 0.029265 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000132 seconds.
-  path: Assets/city-kit-urban-1/Models/OBJ format/house_type10.obj
-  artifactKey: Guid(4ab6bb7a783870a4e9426a1066eadc6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/city-kit-urban-1/Models/OBJ format/house_type10.obj using Guid(4ab6bb7a783870a4e9426a1066eadc6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f84e2e39e7d30b0dc0d25fb593f6b6f0') in 0.032399 seconds
-  Import took 0.035215 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000157 seconds.
-  path: Assets/kenney_citykitroads/Models/OBJ format/road_crossroadPath.obj
-  artifactKey: Guid(d9a890e9ed74f134a83f39c663a9e831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/kenney_citykitroads/Models/OBJ format/road_crossroadPath.obj using Guid(d9a890e9ed74f134a83f39c663a9e831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '358f99fd47332f20460a533e32470f35') in 0.030625 seconds
-  Import took 0.033286 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000160 seconds.
-  path: Assets/city-kit-urban-1/Models/DAE format/tree_large.dae
-  artifactKey: Guid(456d65242689c7a4fb0ee934d467dba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/city-kit-urban-1/Models/DAE format/tree_large.dae using Guid(456d65242689c7a4fb0ee934d467dba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2904e17826a380d57b06200145769db0') in 0.021110 seconds
-  Import took 0.024090 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000120 seconds.
-  path: Assets/city-kit-urban-1/Models/OBJ format/fence_open.obj
-  artifactKey: Guid(8ca106b4ef9f82148a2169d1b687e45d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/city-kit-urban-1/Models/OBJ format/fence_open.obj using Guid(8ca106b4ef9f82148a2169d1b687e45d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49031feda02410a90a413b0ec67f799a') in 0.018162 seconds
-  Import took 0.020756 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000120 seconds.
-  path: Assets/kenney_citykitroads/Models/DAE format/road_roundabout.dae
-  artifactKey: Guid(d23568676d3b7d04d976fdd39feb9af7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/kenney_citykitroads/Models/DAE format/road_roundabout.dae using Guid(d23568676d3b7d04d976fdd39feb9af7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e209cb1c63caa8cf5dd939a95c074c7') in 0.024158 seconds
-  Import took 0.027277 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 268.700118 seconds.
-  path: Assets/kenney_holidaykit_2
-  artifactKey: Guid(fda1035dbe189c7449b3d5ca495f0ca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/kenney_holidaykit_2 using Guid(fda1035dbe189c7449b3d5ca495f0ca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '269d8b1147c054f0a1ca2bfa10754eca') in 0.001993 seconds
-  Import took 0.005444 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.916957 seconds.
-  path: Assets/kenney_holidaykit_2/Models
-  artifactKey: Guid(17435604adc5f03458f471e9740ae300) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/kenney_holidaykit_2/Models using Guid(17435604adc5f03458f471e9740ae300) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7af5d3cba78b871eaaada41f78e45a77') in 0.004461 seconds
-  Import took 0.006883 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.733837 seconds.
-  path: Assets/kenney_holidaykit_2/Models/FBX format
-  artifactKey: Guid(fea14e0596be03a4cb74a364212a483a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/kenney_holidaykit_2/Models/FBX format using Guid(fea14e0596be03a4cb74a364212a483a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd75822c38e402763a7434b65804dfe8b') in 0.001895 seconds
-  Import took 0.004743 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.070981 seconds.
-  path: Assets/kenney_holidaykit_2/Models/FBX format/lightpost.fbx
-  artifactKey: Guid(91aad79bdf46f2f4f8d5767d9dfa8641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/kenney_holidaykit_2/Models/FBX format/lightpost.fbx using Guid(91aad79bdf46f2f4f8d5767d9dfa8641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '927224a5aaa1012371515db1eee6d6b4') in 0.015525 seconds
-  Import took 0.018521 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001438 seconds.
+Registered in 0.001475 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.44 ms, found 3 plugins.
@@ -1174,15 +685,89 @@ NullReferenceException: Object reference not set to an instance of an object
 (Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  0.668 seconds
+- Completed reload, in  0.675 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.44 ms, found 3 plugins.
 Preloading 1 native plugins for Editor in 0.07 ms.
-Unloading 1645 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 110.9 MB.
-System memory in use after: 111.0 MB.
+Unloading 1646 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 111.8 MB.
+System memory in use after: 111.8 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2213.
+Total: 1.638500 ms (FindLiveObjects: 0.181900 ms CreateObjectMapping: 0.059100 ms MarkObjects: 1.326400 ms  DeleteObjects: 0.070500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 881.506696 seconds.
+  path: Assets/MyAssets/FreeZombieSimpleMovement.prefab
+  artifactKey: Guid(c81e1cb02cecc454f8f100469d1d7c43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyAssets/FreeZombieSimpleMovement.prefab using Guid(c81e1cb02cecc454f8f100469d1d7c43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b3ef9e3fe1c522464a3361fcb19d4e2') in 0.051057 seconds
+  Import took 0.054898 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001520 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\andre\Desktop\Class Projects\Repos\Zombie-VR-Survival\Zombie-VR-Survival\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\andre\Desktop\Class Projects\Repos\Zombie-VR-Survival\Zombie-VR-Survival\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.664 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.45 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 1646 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 111.8 MB.
+System memory in use after: 111.9 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2218.
+Total: 1.641700 ms (FindLiveObjects: 0.163100 ms CreateObjectMapping: 0.052700 ms MarkObjects: 1.353000 ms  DeleteObjects: 0.072300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 50.389015 seconds.
+  path: Assets/MyAssets/FreeZombieSimpleMovement.prefab
+  artifactKey: Guid(c81e1cb02cecc454f8f100469d1d7c43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyAssets/FreeZombieSimpleMovement.prefab using Guid(c81e1cb02cecc454f8f100469d1d7c43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0c8a6d1240f0cec353c0d79cab83298') in 0.049585 seconds
+  Import took 0.052612 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001553 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\andre\Desktop\Class Projects\Repos\Zombie-VR-Survival\Zombie-VR-Survival\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\andre\Desktop\Class Projects\Repos\Zombie-VR-Survival\Zombie-VR-Survival\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.676 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.45 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 1646 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 111.8 MB.
+System memory in use after: 111.9 MB.
 
 Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2223.
-Total: 1.593200 ms (FindLiveObjects: 0.158300 ms CreateObjectMapping: 0.052300 ms MarkObjects: 1.319700 ms  DeleteObjects: 0.062200 ms)
+Total: 1.662900 ms (FindLiveObjects: 0.191800 ms CreateObjectMapping: 0.066000 ms MarkObjects: 1.333200 ms  DeleteObjects: 0.071300 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
