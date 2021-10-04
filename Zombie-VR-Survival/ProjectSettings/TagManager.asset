@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Zombie
   - Grabbable
+  - Terrain
   layers:
   - Default
   - TransparentFX

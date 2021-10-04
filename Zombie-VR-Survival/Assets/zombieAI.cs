@@ -41,4 +41,12 @@ public class zombieAI : MonoBehaviour
         }
 
     }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.transform.tag == "Terrain")
+        {
+            agent.enabled = true;
+        }
+    }
 }
