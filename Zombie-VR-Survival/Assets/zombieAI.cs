@@ -11,6 +11,14 @@ public class zombieAI : MonoBehaviour
     public Animator anim;
     Collider col;
     Rigidbody rigidBody;
+    AudioSource[] audioSources;
+    AudioSource clip1;
+    AudioSource clip2;
+    AudioSource clip3;
+
+    float timer;
+
+    int rand;
 
     public bool isDead = false;
 
@@ -23,6 +31,13 @@ public class zombieAI : MonoBehaviour
         col = GetComponent<Collider>();
         rigidBody = GetComponent<Rigidbody>();
         player = GameObject.FindGameObjectWithTag("Player").transform;
+        timer = Random.Range(2, 10);
+        audioSources = GetComponents<AudioSource>();
+        clip1 = audioSources[0];
+        clip2 = audioSources[1];
+        clip3 = audioSources[2];
+
+        
     }
 
     // Update is called once per frame
@@ -38,6 +53,28 @@ public class zombieAI : MonoBehaviour
             Destroy(gameObject, 5);
             col.enabled = false;
             rigidBody.useGravity = false;
+            clip1.enabled = false;
+            clip2.enabled = false;
+            clip3.enabled = false;
+        }
+
+        timer -= Time.deltaTime;
+
+        if (timer <= 0)
+        {
+            timer = Random.Range(5, 15);
+            rand = Random.Range(1, 30);
+
+            if (rand <= 10)
+            {
+                clip1.Play();
+            } else if (rand > 10 && rand < 20)
+            {
+                clip2.Play();
+            } else if (rand <= 20)
+            {
+                clip3.Play();
+            }
         }
 
     }
